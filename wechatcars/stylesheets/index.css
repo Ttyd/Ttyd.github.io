@@ -72,6 +72,7 @@ html,body{
     position: absolute;
     top:50%;
     left:50%;
+    -webkit-transform: translate(-50%);
     transform: translate(-50%);
 }
 .page1 .footer .bar .xiantiao{
@@ -84,21 +85,22 @@ html,body{
     top:-10px;
     margin-left:-15px;
 }
-/*.page1 .footer .bar .bgclor {
-    width: 16px;
-    background: blue;
-    border-radius: 16px;
-    margin-left: 15px;
-    animation: 5s linear;
-    transition:5s linear;
-}*/
 .page1 .footer .bgclor{
     width:13px;
     background: blue;
     top:10px;
     margin-left: 16px;
     border-radius: 13px;
+    -webkit-animation:bgcl 3s linear  forwards;
     animation:bgcl 3s linear  forwards;
+}
+@-webkit-keyframes bgcl {
+    from{
+        height:10px;
+    }
+    to{
+        height:200px;
+    }
 }
 @keyframes bgcl {
     from{
@@ -109,6 +111,9 @@ html,body{
     }
 }
 .page1 .footer .car.active{
+    -webkit-transform:translateY(140px);
+    -webkit-transition-timing-function:linear;
+    -webkit-transition-duration: 3s;
     transform:translateY(140px);
     transition-timing-function:linear;
     transition-duration: 3s;
@@ -124,6 +129,7 @@ html,body{
     top:5%;
     width:20%;
     left:50%;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-left:5%;
 }
@@ -132,10 +138,14 @@ html,body{
     position: absolute;
     top:25%;
     left:50%;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width:12%;
 }
 .page2 .pg2car.active{
+    -webkit-transform: translate(-20px,150px);
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: linear;
     transform: translate(-20px,150px);
     transition-duration: 2s;
     transition-timing-function: linear;
@@ -146,6 +156,7 @@ html,body{
     bottom:7%;
     width:70%;
     left:50%;
+    -webkit-transform:translateX(-50%);
     transform:translateX(-50%);
     z-index: -1;
 }
@@ -154,6 +165,7 @@ html,body{
     bottom:7%;
     left:50%;
     width:40%;
+    -webkit-transform:translateX(-50%);
     transform:translateX(-50%);
 }
 
@@ -177,6 +189,7 @@ html,body{
     top:16%;
     width: 80%;
     left:50%;
+    -webkit-transform:translate(-50%);
     transform:translate(-50%);
 }
 .page3 .page3cont2 {
@@ -186,15 +199,15 @@ html,body{
 
  .pagebottom{
     bottom: 2%;
-    width:80%;
+    width:75%;
     display: table;
     left:50%;
+     -webkit-transform:translate(-50%);
     transform:translate(-50%);
      background: url("../img/newleft-right.png") no-repeat center center;
      background-size: 70%,70%;
      z-index:2;
 }
-
  .pagebottom img{
      width:50%;
      padding:20px;
@@ -207,33 +220,6 @@ html,body{
     vertical-align: middle;
     font-size:25px;
 }
-
-
-/*
-.page3 .page3bottom{
-    bottom: 4%;
-    width:80%;
-    display: table;
-    left:50%;
-    transform:translate(-50%);
-
-}
-.page3 .page3bottom img{
-    width:75%;
-    margin:5px;
-    padding:15px;
-    background: url("../img/newleft-right.png");
-    background-size: cover;
-
-}
-
-.page3 .page3bottom :first-child,.page3 .page3bottom :last-child{
-   display: table-cell;
-    vertical-align: middle;
-    font-size:25px;
-    z-index:-1;
-}
-*/
 
 .page4{
     position: relative;
@@ -256,30 +242,9 @@ html,body{
     top:16%;
     width:90%;
     left:50%;
+    -webkit-transform:translate(-50%);
     transform:translate(-50%);
 }
-
-/*.page4 .page4bottom{
-    bottom: 4%;
-    width:80%;
-    display: table;
-    left:50%;
-    transform:translate(-50%);
-}
-.page4 .page4bottom img{
-    width:75%;
-    margin:5px;
-    padding:15px;
-    background: url("../img/newleft-right.png");
-    background-size: cover;
-
-}
-.page4 .page4bottom :first-child,.page4 .page4bottom :last-child{
-    display: table-cell;
-    vertical-align: middle;
-    font-size:25px;
-}*/
-
 
 .page5{
      position: relative;
@@ -301,29 +266,9 @@ html,body{
     top:16%;
     width:90%;
     left:50%;
+    -webkit-transform:translate(-50%);
     transform:translate(-50%);
 }
-/*
-.page5 .page5bottom{
-    bottom: 4%;
-    width:80%;
-    display: table;
-    left:50%;
-    transform:translate(-50%);
-}
-.page5 .page5bottom img{
-    width:75%;
-    margin:5px;
-    padding:15px;
-    background: url("../img/newleft-right.png");
-    background-size: cover;
-
-}
-.page5 .page5bottom :first-child,.page5 .page5bottom :last-child{
-    display: table-cell;
-    vertical-align: middle;
-    font-size:25px;
-}*/
 
 .page6{
     position: relative;
@@ -352,8 +297,17 @@ html,body{
     left:26%;
     background:url(../img/6-car-img.png);
     background-size: cover;
+    -webkit-animation:carmove 3s steps(4,start) forwards ,go 3s 3s forwards ease-in;
     animation:carmove 3s steps(4,start) forwards ,go 3s 3s forwards ease-in;
     background-position: 0 0;
+}
+@-webkit-keyframes carmove {
+    0%{
+        background-position:-100% 0%;
+    }
+    100%{
+        background-position:0% 0%;
+    }
 }
 @keyframes carmove {
     0%{
@@ -361,6 +315,11 @@ html,body{
     }
     100%{
         background-position:0% 0%;
+    }
+}
+@-webkit-keyframes go {
+    to{
+        left:-207px;
     }
 }
 @keyframes go {
@@ -423,7 +382,6 @@ html,body{
 }
 
 .page7.active .pg7car{
-
     position: absolute;
     width: 70.3125%;
     width: 245px;
@@ -433,7 +391,6 @@ html,body{
     overflow: hidden;
     background: url(../img/7img.png);
     background-size: cover;
-
     -webkit-animation: xie 2s ease-out forwards,down 3s 3s steps(6,start);
     animation: xie 2s ease-out forwards,down 3s 3s steps(6,start);
 
@@ -500,7 +457,6 @@ html,body{
     font-size:25px;
 }
 */
-
 
 .page8{
     position: relative;
