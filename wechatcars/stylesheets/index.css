@@ -1,0 +1,523 @@
+*{
+     box-sizing:border-box;
+     margin:0;
+ }
+html,body{
+    height:100%;
+    overflow: hidden;
+}
+.all{
+    position: relative;
+    width:800%;
+    height:100%;
+}
+.all>.page{
+    height:100%;
+    float:left;
+    width:12.5%;
+}
+.musiccss{
+    position: fixed;
+    top:5%;
+    right:8%;
+    width: 8%;
+    z-index:1;
+    -webkit-animation: msc 3s linear infinite;
+    animation:msc 3s linear infinite;
+}
+@-webkit-keyframes msc {
+    from{
+        -webkit-transform:rotate(0deg);
+    }
+    to{
+        -webkit-transform:rotate(360deg) ;
+    }
+}
+@keyframes msc{
+    from{
+       transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.page1 {
+    position: relative;
+    text-align: center;
+    background-color: aliceblue;
+}
+.page1:before{
+    content:'';
+}
+.page1 .page1-nav{
+    position:absolute;
+    left:8%;
+    top:15%;
+}
+.page1 .page1-nav .bao{
+   width:150px;
+}
+.page1 .page1-nav .drive{
+    width: 50px;
+}
+.page1 .content {
+    position: absolute;
+    top:25%;
+}
+.page1 .content img{
+    width:60%;
+}
+.page1 .footer{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%);
+}
+.page1 .footer .bar .xiantiao{
+    position: absolute;
+    top:0px;
+    height:200px;
+}
+.page1 .footer .bar .car{
+    position: absolute;
+    top:-10px;
+    margin-left:-15px;
+}
+/*.page1 .footer .bar .bgclor {
+    width: 16px;
+    background: blue;
+    border-radius: 16px;
+    margin-left: 15px;
+    animation: 5s linear;
+    transition:5s linear;
+}*/
+.page1 .footer .bgclor{
+    width:13px;
+    background: blue;
+    top:10px;
+    margin-left: 16px;
+    border-radius: 13px;
+    animation:bgcl 3s linear  forwards;
+}
+@keyframes bgcl {
+    from{
+        height:10px;
+    }
+    to{
+        height:200px;
+    }
+}
+.page1 .footer .car.active{
+    transform:translateY(140px);
+    transition-timing-function:linear;
+    transition-duration: 3s;
+
+}
+
+.page2{
+    position: relative;
+    text-align: center;
+}
+.page2 .pg2text{
+    position: absolute;
+    top:5%;
+    width:20%;
+    left:50%;
+    transform: translateX(-50%);
+    margin-left:5%;
+}
+
+.page2 .pg2car{
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translateX(-50%);
+    width:12%;
+}
+.page2 .pg2car.active{
+    transform: translate(-20px,150px);
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.page2 .page2content .pg2stop{
+    position: absolute;
+    bottom:7%;
+    width:70%;
+    left:50%;
+    transform:translateX(-50%);
+    z-index: -1;
+}
+.page2 .page2bottom img{
+    position: absolute;
+    bottom:7%;
+    left:50%;
+    width:40%;
+    transform:translateX(-50%);
+}
+
+
+.page3{
+    position: relative;
+    text-align: center;
+}
+.page3>div{
+    position: absolute;
+}
+.page3>div>img{
+    width:100%;
+}
+.page3 .page3head{
+    top:6%;
+    width: 60%;
+    left:8%;
+}
+.page3 .page3content{
+    top:16%;
+    width: 80%;
+    left:50%;
+    transform:translate(-50%);
+}
+.page3 .page3cont2 {
+    top:42%;
+    width:80%;
+}
+
+ .pagebottom{
+    bottom: 2%;
+    width:80%;
+    display: table;
+    left:50%;
+    transform:translate(-50%);
+     background: url("../img/newleft-right.png") no-repeat center center;
+     background-size: 70%,70%;
+     z-index:2;
+}
+
+ .pagebottom img{
+     width:50%;
+     padding:20px;
+     background-size: cover;
+     z-index:-1;
+}
+
+ .pagebottom :first-child, .pagebottom :last-child{
+    display: table-cell;
+    vertical-align: middle;
+    font-size:25px;
+}
+
+
+/*
+.page3 .page3bottom{
+    bottom: 4%;
+    width:80%;
+    display: table;
+    left:50%;
+    transform:translate(-50%);
+
+}
+.page3 .page3bottom img{
+    width:75%;
+    margin:5px;
+    padding:15px;
+    background: url("../img/newleft-right.png");
+    background-size: cover;
+
+}
+
+.page3 .page3bottom :first-child,.page3 .page3bottom :last-child{
+   display: table-cell;
+    vertical-align: middle;
+    font-size:25px;
+    z-index:-1;
+}
+*/
+
+.page4{
+    position: relative;
+    text-align: center;
+    background: aliceblue;
+}
+.page4>div{
+    position: absolute;
+}
+.page4>div>img{
+    width:100%;
+}
+.page4 .page4head{
+    top:6%;
+    width: 60%;
+    left:8%;
+}
+
+.page4 .page4cont{
+    top:16%;
+    width:90%;
+    left:50%;
+    transform:translate(-50%);
+}
+
+/*.page4 .page4bottom{
+    bottom: 4%;
+    width:80%;
+    display: table;
+    left:50%;
+    transform:translate(-50%);
+}
+.page4 .page4bottom img{
+    width:75%;
+    margin:5px;
+    padding:15px;
+    background: url("../img/newleft-right.png");
+    background-size: cover;
+
+}
+.page4 .page4bottom :first-child,.page4 .page4bottom :last-child{
+    display: table-cell;
+    vertical-align: middle;
+    font-size:25px;
+}*/
+
+
+.page5{
+     position: relative;
+     background-color: #dff;
+     text-align: center;
+ }
+.page5>div{
+    position: absolute;
+}
+.page5>div>img{
+    width:100%;
+}
+.page5 .page5head{
+    top:6%;
+    width: 60%;
+    left:8%;
+}
+.page5 .page5cont{
+    top:16%;
+    width:90%;
+    left:50%;
+    transform:translate(-50%);
+}
+/*
+.page5 .page5bottom{
+    bottom: 4%;
+    width:80%;
+    display: table;
+    left:50%;
+    transform:translate(-50%);
+}
+.page5 .page5bottom img{
+    width:75%;
+    margin:5px;
+    padding:15px;
+    background: url("../img/newleft-right.png");
+    background-size: cover;
+
+}
+.page5 .page5bottom :first-child,.page5 .page5bottom :last-child{
+    display: table-cell;
+    vertical-align: middle;
+    font-size:25px;
+}*/
+
+.page6{
+    position: relative;
+    text-align: center;
+}
+.page6>div{
+    position: absolute;
+}
+.page6>div>img{
+    width:100%;
+}
+.page6 .page6head{
+    top:5%;
+    width: 60%;
+    left:8%;
+}
+.page6 .page6cont{
+    top:10%;
+    z-index: -1;
+}
+.page6.active .page6cont .pg6car{
+    position:absolute;
+    height: 66px;
+    width:184px;
+    top:57%;
+    left:26%;
+    background:url(../img/6-car-img.png);
+    background-size: cover;
+    animation:carmove 3s steps(4,start) forwards ,go 3s 3s forwards ease-in;
+    background-position: 0 0;
+}
+@keyframes carmove {
+    0%{
+       background-position:-100% 0%;
+    }
+    100%{
+        background-position:0% 0%;
+    }
+}
+@keyframes go {
+   to{
+       left:-207px;
+    }
+}
+
+.page6.active .page6cont2{
+    height: 150px;
+    width: 181px;
+    left:25%;
+    top:41%;
+    -webkit-animation:tel 4s 100ms steps(4,start) forwards;
+    animation:tel 4s 100ms steps(4,start) forwards;
+    background: url("../img/6-text-bg.png");
+    background-size: cover;
+}
+@-webkit-keyframes tel {
+    0%{
+        background-position: -0% 0px;
+    }
+    100%{
+        background-position: -400% 0px;
+    }
+}
+@keyframes tel {
+    0%{
+        background-position: -0% 0px;
+    }
+    100%{
+        background-position: -400% 0px;
+    }
+}
+
+.page7{
+    position: relative;
+    text-align: center;
+}
+.page7>div{
+    position: absolute;
+}
+.page7>div>img{
+    width:100%;
+}
+
+.page7 .page7head{
+    top:6%;
+    width: 60%;
+    left:8%;
+}
+.page7 .page7cont{
+    width: 100%;
+    top:15%;
+    z-index: -1;
+}
+.page7 .page7cont > div {
+    width: 100%;
+    position: relative;
+}
+
+.page7.active .pg7car{
+
+    position: absolute;
+    width: 70.3125%;
+    width: 245px;
+    left: 17%;
+    top: 40%;
+    height: 157.5px;
+    overflow: hidden;
+    background: url(../img/7img.png);
+    background-size: cover;
+
+    -webkit-animation: xie 2s ease-out forwards,down 3s 3s steps(6,start);
+    animation: xie 2s ease-out forwards,down 3s 3s steps(6,start);
+
+}
+@-webkit-keyframes xie {
+    from {
+        left: 100%;
+        top: 100%;
+    }
+    to {
+        left: 15%;
+        top: 42%;
+    }
+}
+@keyframes xie {
+    from {
+        left: 100%;
+        top: 100%;
+    }
+    to {
+        left: 15%;
+        top: 42%;
+    }
+}
+@-webkit-keyframes down {
+    0% {
+        background-position: -0% 0px;
+    }
+    100% {
+        background-position: -600% 0px;
+    }
+}
+@keyframes down {
+    0% {
+        background-position: -0% 0px;
+    }
+    100% {
+        background-position: -600% 0px;
+    }
+}
+/*.page7 .page7cont > div .pg7car> img {
+    position: absolute;
+    width: 600%;
+}*/
+/*
+.page7 .page7bottom{
+    bottom: 4%;
+    width:80%;
+    display: table;
+    left:50%;
+    transform:translate(-50%);
+}
+.page7 .page7bottom img{
+    width:75%;
+    margin:5px;
+    padding:15px;
+    background: url("../img/newleft-right.png");
+    background-size: cover;
+
+}
+.page7 .page7bottom :first-child,.page7 .page7bottom :last-child{
+    display: table-cell;
+    vertical-align: middle;
+    font-size:25px;
+}
+*/
+
+
+.page8{
+    position: relative;
+    text-align: center;
+    background-color: #def;
+}
+.page8>div{
+    position: absolute;
+}
+.page8>div>img{
+    width:100%;
+}
+.page8 .page8head{
+    top:6%;
+    width: 60%;
+    left:8%;
+}
+.page8 .page8cont{
+    top:16%;
+}
