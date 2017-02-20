@@ -92,7 +92,7 @@ html,body{
     margin-left: 16px;
     border-radius: 13px;
     -webkit-animation:bgcl 3s linear  forwards;
-    animation:bgcl 3s linear  forwards;
+    animation:bgcl 3s linear forwards;
 }
 @-webkit-keyframes bgcl {
     from{
@@ -112,10 +112,10 @@ html,body{
 }
 .page1 .footer .car.active{
     -webkit-transform:translateY(140px);
-    -webkit-transition-timing-function:linear;
-    -webkit-transition-duration: 3s;
     transform:translateY(140px);
+    -webkit-transition-timing-function:linear;
     transition-timing-function:linear;
+    -webkit-transition-duration: 3s;
     transition-duration: 3s;
 
 }
@@ -136,25 +136,24 @@ html,body{
 
 .page2 .pg2car{
     position: absolute;
-    top:25%;
+    top:26%;
     left:50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width:12%;
 }
 .page2 .pg2car.active{
-    -webkit-transform: translate(-20px,150px);
-    -webkit-transition-duration: 2s;
-    -webkit-transition-timing-function: linear;
-    transform: translate(-20px,150px);
-    transition-duration: 2s;
-    transition-timing-function: linear;
+    -webkit-transform: translate(-20px,160px);
+    transform: translate(-20px,160px);
+    -webkit-transition:2s linear ;
+    transition:2s linear ;
+
 }
 
 .page2 .page2content .pg2stop{
     position: absolute;
     bottom:7%;
-    width:70%;
+    width:60%;
     left:50%;
     -webkit-transform:translateX(-50%);
     transform:translateX(-50%);
@@ -162,7 +161,7 @@ html,body{
 }
 .page2 .page2bottom img{
     position: absolute;
-    bottom:7%;
+    bottom:5%;
     left:50%;
     width:40%;
     -webkit-transform:translateX(-50%);
@@ -181,36 +180,36 @@ html,body{
     width:100%;
 }
 .page3 .page3head{
-    top:6%;
+    top:5%;
     width: 60%;
     left:8%;
 }
 .page3 .page3content{
-    top:16%;
+    top:14%;
     width: 80%;
     left:50%;
     -webkit-transform:translate(-50%);
     transform:translate(-50%);
 }
 .page3 .page3cont2 {
-    top:42%;
+    top:40%;
     width:80%;
 }
 
  .pagebottom{
-    bottom: 2%;
-    width:75%;
+    bottom: 0.5%;
+    width:80%;
     display: table;
     left:50%;
      -webkit-transform:translate(-50%);
     transform:translate(-50%);
      background: url("../img/newleft-right.png") no-repeat center center;
-     background-size: 70%,70%;
+     background-size: 60%,60%;
      z-index:2;
 }
  .pagebottom img{
-     width:50%;
-     padding:20px;
+     width:46%;
+     padding:35px;
      background-size: cover;
      z-index:-1;
 }
