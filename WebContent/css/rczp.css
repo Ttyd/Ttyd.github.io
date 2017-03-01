@@ -1,0 +1,133 @@
+
+.rczp-content{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 100px;
+
+}
+.zwxq_title{
+	background: #00A0DC;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding-left: 14px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 32px;
+}
+.zwxq_title>span{
+	display: table-cell;
+	vertical-align: middle;
+	border-left: 2px solid #FFFFFF;
+	padding-left: 7px;
+}
+.zw_Info>div:first-child{
+	float: left;
+	
+}
+.zw_Info>div:last-child{
+	float:right;
+}
+.zw_tsjl{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 18px;
+	color: #00A0DC;
+	width: 106px;
+	height: 37px;
+	border: 1px solid #00A0DC;
+	text-align: center;
+
+}
+.zwxq_item{
+	margin-top: 24px;
+}
+.zw_name{
+	color: #445566;
+	font-size: 18px;
+	
+}
+.zw_jingyang{
+	color: #666666;
+	font-size: 16px;
+	margin: 30px 0;
+}
+.zw_ckxq{
+		margin-top: 12px;
+}
+.zw_ckxq img{
+	margin-left: 13px;
+	vertical-align: middle;
+	-webkit-transform: rotateZ(180deg);
+	-moz-transform: rotateZ(180deg);
+	-ms-transform: rotateZ(180deg);
+	transform: rotateZ(180deg);
+	transition: all 0.5s;
+}
+.zwxq_content>*{
+	float: left;
+	
+}
+.zwxq_content>:first-child{
+	max-width: 460px;
+	margin-right: 70px;
+}
+.zw_gwyq{
+	width: 446px;
+}
+.zw_jnyq{
+	width: 280px;
+}
+.gwyq_name,.zw_jnyqname{
+	margin: 0px 0 18px 0;
+}
+body{
+		background: white;
+}
+.zwxq{
+	padding-bottom: 20px ;
+}
+.zw_name img{
+	vertical-align: middle; margin-right: 6px;
+}
+.name{
+	display: inline-block;
+	vertical-align: middle;
+}
+.zwxq_content{
+	color: #666666;
+	    padding-bottom: 30px;
+}
+.zwxq_content{
+	display: none;
+}
+.zwxq_item{
+	position: relative;
+}
+.zw_ckxq{
+	cursor: pointer;
+	-webkit-transform: rotateZ(0);
+	-moz-transform: rotateZ(0);
+	-ms-transform: rotateZ(0);
+	transform: rotateZ(0);
+	transition: all 0.5s;
+}
+.rczp_ani_zw_ckxq{
+	/*-webkit-transform: rotateZ(180deg);
+	-moz-transform: rotateZ(180deg);
+	-ms-transform: rotateZ(180deg);
+	transform: rotateZ(180deg);*/
+	-webkit-transform: rotateZ(0deg)!important;
+	-moz-transform: rotateZ(0deg)!important;;
+	-ms-transform: rotateZ(0deg)!important;;
+	transform: rotateZ(0deg)!important;;
+}
+.zwxq_item:nth-child(n+2)::before {
+    width: 100%;
+    content: "";
+    border-top: 1px dashed #cccccc;	
+    position: absolute;
+    top: -37px;
+}
+

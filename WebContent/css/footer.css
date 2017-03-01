@@ -1,0 +1,126 @@
+.fwtk_footer_bottom .nav{
+	display: table;
+	border-spacing: 30px 0;
+	font-size: 16px;
+
+}
+.fwtk_footer_bottom  .nav>*{
+		display: table-cell;
+		vertical-align: middle;
+}
+.fwtk_footer_bottom  .tubiao{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+}
+.fwtk_footer_bottom  .tubiao img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.fwtk_footer_top{
+	display: table;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0!important;
+	/*border-spacing: 32px 0;*/
+	/*border-top: 1px solid #CCCCCC;*/
+}
+.fwtk_footer_top>*{
+	display: table-cell;
+	    vertical-align: top;
+	
+}
+.footer_yqts{
+	width:520px ;
+}
+.footer_yqts>*{
+	    display: table-cell;
+	    
+}
+.footer_yqts_right{
+	    vertical-align: top;
+
+}
+.footer_yqts_left{
+	    width: 140px;
+}
+.fwtk_footer_top,.fwtk_footer_bottom{
+	padding: 34px 195px ;
+}
+.fwtk_footer_bottom a{
+		color: #999999!important;
+}
+.fwtk_footer{
+	background: white;
+}
+
+.footer_yqts{
+	border: 1px solid #CCCCCC;
+	padding: 30px 20px;
+	font-family: simhei;
+	color:#445566;
+}
+.footer_yqts_left{
+	font-size: 28px;
+}
+.footer_yqts_right{
+	font-size: 15px;
+}
+.hr_email{
+	color: #00B4eb;
+	font-size: 15px;
+}
+.footer_topic{
+	font-size: 18px;
+	color: #333333;
+}
+.footer_middle{
+	margin-top: 18px;
+	margin-bottom: 24px;
+	font-size: 14px;
+	color: #333333;
+}
+.fwtk_footer_bottom>:first-child{
+	float: left;
+}
+.fwtk_footer_bottom>:last-child{
+	float: right;
+}
+.fwtk_footer_bottom{
+	background: white;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.bottom_height{	
+	height: 20px;
+	background: white;
+}
+.top_line{
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	bottom: 0;
+}
+.footer_yqts{
+	position: relative;
+	   -webkit-transform: translateY(-21px);
+	    -moz-transform: translateY(-21px);
+	    -ms-transform: translateY(-21px);
+	    transform: translateY(-21px);
+    height: 218px;
+}
+.db_kboom{
+	position: absolute;
+	top: 83%;
+	right: 20px;
+}
+
+.footer_top{
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+.footer_app{
+	padding-left: 20px ;
+}

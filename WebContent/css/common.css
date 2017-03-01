@@ -1,0 +1,40 @@
+.wz-clearfix::after{
+	content: "";
+	display:block;
+	clear:both;
+	
+}
+.wz-center{
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	left: 50%;
+
+}
+img{
+	border-width: 0;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+html,body,ul,li,a,div,span{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ul li{
+	list-style: none;
+	
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.navBar{}
+/*body{
+	-webkit-transform: scale(0.9);
+}*/

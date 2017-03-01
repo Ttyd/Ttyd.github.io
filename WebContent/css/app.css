@@ -1,0 +1,292 @@
+.section {
+	position: relative;
+}
+
+
+/*.nav{
+	position: absolute;
+	right: 0;
+}*/
+
+
+/*.wz-center,.content{
+		width: 1000px;
+}*/
+
+.contentApp {
+	/*width: 100%;
+    position: absolute;
+    top: 21.6%;
+    left: 28.2%;*/
+	position: relative;
+	margin: 0 auto;
+	width: 809px;
+	height: 100%;
+}
+
+.index_index,
+.index_app {
+	cursor: pointer;
+	/*cursor: url("../img/wy_erweima.png"),pointer;*/
+	/*使用图片作为鼠标样式*/
+}
+
+.cont {
+	width: 1000px;
+}
+
+.contentApp>* {
+	float: left;
+	/*margin-top: 199px;*/
+}
+
+.contentApp::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.page1_left {
+	/*width: ;*/
+	margin-right: 10%;
+}
+
+
+/*.page1{
+	background: url(../img/app1/bg1@2x.png) center top  no-repeat;
+}*/
+
+.page2 {
+	/*background: url(../img/aap2/bg2@2x.png) center top no-repeat;*/
+	background: url(../img/aap2/bg2@2x.png) center center;
+	text-align: right;
+	width: -webkit-calc(100% + 1000px);
+	width: -moz-calc(100% + 1000px);
+	width: -ms-calc(100% + 1000px);
+	width: calc(100% + 1000px);
+	-webkit-transform: translateX(-548px);
+	-moz-transform: translateX(-548px);
+	-ms-transform: translateX(-548px);
+	transform: translateX(-548px)
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	zoom: 1;
+}
+
+.page2_right,
+.page2_left {
+	float: right;
+}
+
+.page2_right {
+	/*margin-right: 14px;*/
+	position: absolute;
+	top: 17%;
+	left: 56%;
+}
+
+.page2_left {
+	/*margin-right: 158px;
+    margin-top: 430px;*/
+	position: absolute;
+	top: 48%;
+	left: 15%
+}
+
+
+/*.page2_right_bottom{
+	width: 100%;
+	height: 100%;
+	position: relative;	
+}*/
+
+.page2_img {
+	position: absolute;
+	left: 0;
+}
+
+.danmu1 {
+	top: 54%;
+	left: 58%;
+}
+
+.danmu2 {
+	top: 62%;
+	left: 68%;
+}
+
+.focus {
+	top: 74%;
+	left: -23%;
+}
+
+.gift1 {
+	top: 40%;
+	left: 17%
+}
+
+.gift2 {
+	top: 50%;
+	left: -10%;
+}
+
+.message {
+	top: 60%;
+	left: 10%;
+}
+
+.message1 {
+	top: 65%;
+	left: 0%;
+}
+
+.message3 {
+	top: 77%;
+	left: -13%;
+}
+
+.abs {
+	position: absolute;
+}
+
+.banner {
+	top: 5%;
+}
+
+.tese {
+	top: 20%;
+}
+
+.rmht {
+	top: 50%;
+}
+
+.page3 {
+	/*background: url(../img/app3/bg3@2x.png) center top;*/
+	background: url(../img/app3/bg3@2x.png) center center;
+	-webkit-transform: translateX(-616px);
+	-moz-transform: translateX(-616px);
+	-ms-transform: translateX(-616px);
+	transform: translateX(-616px);
+	width: -webkit-calc(100% + 1000px);
+	width: -moz-calc(100% + 1000px);
+	width: -ms-calc(100% + 1000px);
+	width: calc(100% + 1000px);
+}
+
+.page3_left {
+	/*position: relative;*/
+	position: absolute;
+	top: 50%;
+	left: 20%;
+}
+
+.page3_left .rcb {
+	position: absolute;
+	top: 67px;
+	left: 15px;
+}
+
+.page3_right {
+	position: absolute;
+	left: 74%;
+	top: 48%;
+}
+
+.page4 {
+	/*background: url(../img/app4/bg4@2x.png) center top ;*/
+	background: url(../img/app4/bg_4@2x.png) center center;
+	width: -webkit-calc(100% + 1000px);
+	width: -moz-calc(100% + 1000px);
+	width: -ms-calc(100% + 1000px);
+	width: calc(100% + 1000px);
+	margin-left: -450px;
+}
+
+.page4_right {
+	height: 100%;
+	height: 620px;
+}
+
+.chinese {
+	color: #CCCCCC;
+	font-size: 24px;
+}
+
+.english {
+	font-family: "微软雅黑";
+	margin-bottom: 56px;
+	font-size: 24px;
+	font-weight: blod;
+	color: #FFFFFF;
+}
+
+.page4 .contentApp {
+	padding: 20px 0 0 0;
+	width: 758px;
+	text-align: right;
+}
+
+.page4_left {
+	position: absolute;
+	left: -2%;
+	top: 48%;
+}
+
+.page4_right {
+	position: absolute;
+	left: 45%;
+	top: 16%;
+}
+
+
+/*page4 页面*/
+
+.mobileNav {
+	top: 10%;
+	left: 5%;
+}
+
+.banner {
+	left: -5%;
+	top: 18.5%;
+}
+
+.tese {
+	width: 100%;
+	height: 48px;
+}
+
+.tese_center {
+	z-index: 2;
+}
+
+.tese_center img:first-child {
+	margin-right: -6px;
+}
+
+.tese_right {
+	right: -20%;
+	top: 40%;
+}
+
+.tese {
+	top: 49%;
+	left: 8.4%;
+}
+
+.tese_left {
+	top: 40%;
+	left: -37%;
+}
+
+.rmht {
+	width: 100%;
+	text-align: center;
+	top: 61%;
+	color: white;
+}
