@@ -1,0 +1,440 @@
+<div class="mediaRead">
+    <div class="banner">
+        <p>
+            <img src="img/read-banner.png">
+        </p>
+        <p class="bookName">
+            伍迪·艾伦谈话录
+        </p>
+    </div>
+    <div class="xssd movieMain">
+        <div class="readTop movieTop">
+            <h3>
+                新书速递
+            </h3>
+            <p class="readMore moreMovie">
+                <a href="##">
+                    更多&nbsp;&gt;
+                </a>
+            </p>
+        </div>
+        <div class="movie book1">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <dl ng-repeat="x in data.read.books" class="swiper-slide">
+                        <dt>
+                            <img ng-src="{{x.url}}">
+                        </dt>
+                        <dd  class="omit">{{x.book_name}}</dd>
+                        <dd>
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <span>{{x.score}}</span>
+                        </dd>
+                    </dl>
+                    <dl class="swiper-slide">
+                        <dt>
+                        <p>
+                            全部
+                        </p>
+                        <p class="all">
+                            {{data.read.bookCount}}部
+                        </p>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="xgts movieMain">
+        <div class="readTop movieTop">
+            <h3>
+                最受关注的虚构类图书
+            </h3>
+            <p class="readMore moreMovie">
+                <a href="##">
+                    更多&nbsp;&gt;
+                </a>
+            </p>
+        </div>
+        <div class="movie book1">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <dl ng-repeat="y in data.read.hotFalseBook" class="swiper-slide">
+                        <dt>
+                            <img ng-src="{{y.url}}">
+                        </dt>
+                        <dd  class="omit">{{y.book_name}}</dd>
+                        <dd>
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <span>{{y.score}}</span>
+                        </dd>
+                    </dl>
+                    <dl class="swiper-slide">
+                        <dt>
+                        <p>
+                            全部
+                        </p>
+                        <p class="all">
+                            {{data.read.hotFalseBookCount}}部
+                        </p>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fxgts movieMain">
+        <div class="readTop movieTop">
+            <h3>
+                豆瓣纸书
+            </h3>
+            <p class="readMore moreMovie">
+                <a href="##">
+                    更多&nbsp;&gt;
+                </a>
+            </p>
+        </div>
+        <div class="movie book1">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <dl ng-repeat="z in data.read.paperBooks" class="swiper-slide">
+                        <dt>
+                            <img ng-src="{{z.url}}">
+                        </dt>
+                        <dd  class="omit">{{z.book_name}}</dd>
+                        <dd>
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <span>{{z.score}}</span>
+                        </dd>
+                    </dl>
+                    <dl class="swiper-slide">
+                        <dt>
+                        <p>
+                            全部
+                        </p>
+                        <p class="all">
+                            {{data.read.paperBooksCount}}部
+                        </p>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dbds movieMain">
+        <div class="readTop movieTop">
+            <h3>
+                最受关注的非虚构类图书
+            </h3>
+            <p class="readMore moreMovie">
+                <a href="##">
+                    更多&nbsp;&gt;
+                </a>
+            </p>
+        </div>
+        <div class="bookban">
+            <p>
+                <img ng-src="{{data.read.hotTrueBook[0].url}}">
+            </p>
+            <div class="WudyTalk">
+                <h3>
+                    <p>
+                        {{data.read.hotTrueBook[0].book_name}}
+                    </p>
+                    <span>
+                        &yen;{{data.read.hotTrueBook[0].market_price}}
+                    </span>
+                </h3>
+                <p class="talkInfo">
+                    {{data.read.hotTrueBook[0].summary}}
+                </p>
+            </div>
+        </div>
+        <div class="movie book1">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <dl ng-repeat="a in data.read.hotTrueBook" class="swiper-slide">
+                        <dt>
+                            <img ng-src="{{a.url}}">
+                        </dt>
+                        <dd  class="omit">{{a.book_name}}</dd>
+                        <dd>
+                            <span>&yen;{{a.market_price}}</span>
+                        </dd>
+                    </dl>
+                    <dl class="swiper-slide">
+                        <dt>
+                        <p>
+                            全部
+                        </p>
+                        <p class="all">
+                            {{data.read.hotTrueBookCount}}部
+                        </p>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rmdzs movieMain">
+        <div class="readTop movieTop">
+            <h3>
+                热门电子书
+            </h3>
+            <p class="readMore moreMovie">
+                <a href="##">
+                    更多&nbsp;&gt;
+                </a>
+            </p>
+        </div>
+        <div class="movie book1">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <dl ng-repeat="b in data.read.eBook" class="swiper-slide">
+                        <dt>
+                            <img ng-src="{{b.url}}">
+                        </dt>
+                        <dd  class="omit">{{b.book_name}}</dd>
+                        <dd>
+                            <span>{{b.market_price}}</span>
+                            <span>{{b.price}}元</span>
+                        </dd>
+                    </dl>
+                    <dl class="swiper-slide">
+                        <dt>
+                        <p>
+                            全部
+                        </p>
+                        <p class="all">
+                            {{data.read.eBookCount}}部
+                        </p>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cxts movieMain">
+        <div class="readTop movieTop">
+            <h3>
+                畅销图书榜
+            </h3>
+            <p class="readMore moreMovie">
+                <a href="##">
+                    更多&nbsp;&gt;
+                </a>
+            </p>
+        </div>
+        <div class="movie book1">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <dl ng-repeat="c in data.read.bestsellerBooks" class="swiper-slide">
+                        <dt>
+                            <img ng-src="{{c.url}}">
+                        </dt>
+                        <dd  class="omit">{{c.book_name}}</dd>
+                        <dd>
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <img src="img/booksOrPhotocopies-allstar.png">
+                            <span>{{c.score}}</span>
+                        </dd>
+                    </dl>
+                    <dl class="swiper-slide">
+                        <dt>
+                        <p>
+                            全部
+                        </p>
+                        <p class="all">
+                            {{data.read.bestsellerBooksCount}}部
+                        </p>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="readDbc dbc movieMain">
+        <div class="movieTop">
+            <h3>
+                豆瓣猜
+            </h3>
+        </div>
+        <div class="movie4">
+            <dl ng-repeat="x in data.read.doubanGuest">
+                <dt>
+                    <img ng-src="{{x.url}}">
+                </dt>
+                <dd class="omit">
+                    {{x.book_name}}
+                </dd>
+                <dd>
+                    <img src="img/booksOrPhotocopies-allstar.png">
+                    <img src="img/booksOrPhotocopies-allstar.png">
+                    <img src="img/booksOrPhotocopies-allstar.png">
+                    <img src="img/booksOrPhotocopies-halfstar.png">
+                    <img src="img/booksOrPhotocopies-emptystar.png">
+                    <span>
+                            {{x.score}}
+                        </span>
+                </dd>
+            </dl>
+        </div>
+        <p class="refresh">
+            <a href="##">
+                <img src="img/booksOrPhotocopies-refresh.png">
+                换一批
+            </a>
+        </p>
+    </div>
+    <div class="cinecism bookMain">
+        <div class="movieTop">
+            <h3>
+                最受欢迎书评
+            </h3>
+            <p class="moreMovie">
+                <a href="##">
+                    更多&nbsp;&gt;
+                </a>
+            </p>
+        </div>
+        <div class="review" ng-repeat="e in data.read.bookTelling">
+            <div class="reviewWords">
+                <p class="title">{{e.name}}</p>
+                <p class="feel">
+                   {{e.content}}
+                </p>
+                <p class="line">
+                <p class="view">
+                        <span class="viewer">
+                            {{e.telling_name}}
+                        </span>
+                    评论
+                    <span class="film">
+                        {{e.telling_book}}
+                    </span>
+                </p>
+            </div>
+            <p class="poster">
+                <img ng-src="{{e.url}}">
+            </p>
+        </div>
+    </div>
+    <div class="choose">
+        <h3>
+            选图书
+        </h3>
+        <div class="options">
+                <span>
+                    小说
+                </span>
+            <span>
+                    爱情
+                </span>
+            <span>
+                    历史
+                </span>
+            <span>
+                    外国文学
+                </span>
+            <span>
+                    励志
+                </span>
+            <span>
+                    随笔
+                </span>
+            <span>
+                    传记
+                </span>
+            <span>
+                    推理
+                </span>
+            <span>
+                    经营
+                </span>
+        </div>
+    </div>
+    <div class="find">
+        <div class="findTop">
+            <div class="bangDan">
+                <h3>
+                    发现好电影
+                </h3>
+                <p>
+                    豆瓣网友制作的电影榜单
+                </p>
+            </div>
+            <p class="findMore">
+                <a href="##">
+                    更多&nbsp;&gt;
+                </a>
+            </p>
+        </div>
+        <div class="content">
+            <div class="movTitle">
+                <p class="movName">
+                    同时入选IMDB250和豆瓣250的电影
+                </p>
+                <span>
+                        115129收藏
+                    </span>
+            </div>
+            <div class="pic">
+                <img src="img/booksOrPhotocopies-select1.png">
+            </div>
+        </div>
+        <div class="content">
+            <div class="movTitle">
+                <p class="movName">
+                    带你进入不正常的世界
+                </p>
+                <span>
+                        30019收藏
+                    </span>
+            </div>
+            <div class="pic">
+                <img src="img/booksOrPhotocopies-select2.png">
+            </div>
+        </div>
+        <div class="content">
+            <div class="movTitle">
+                <p class="movName">
+                    用电【影】来祭奠逝去的岁月
+                </p>
+                <span>
+                        12125收藏
+                    </span>
+            </div>
+            <div class="pic">
+                <img src="img/booksOrPhotocopies-select3.png">
+            </div>
+        </div>
+        <div class="content">
+            <div class="movTitle">
+                <p class="movName">
+                    同时入选IMDB250和豆瓣250的电影
+                </p>
+                <span>
+                        115129收藏
+                    </span>
+            </div>
+            <div class="pic">
+                <img src="img/booksOrPhotocopies-select1.png">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<div class="media">
+
+    <div class="dingwei">
+        <div class="top">
+            书影音
+            <p class="image">
+                <a ui-sref="home_search">
+                    <img src="img/booksOrPhotocopies-search.png">
+                </a>
+                <a ui-sref="chat">
+                    <img src="img/booksOrPhotocopies-chet.png">
+                </a>
+            </p>
+        </div>
+        <!-- --------------------  NAVI  ------------------------- -->
+        <ul class="navi">
+            <li class="naviBorder">
+                <a ui-sref=".movie" class="movie">
+                    电影
+                </a>
+            </li>
+            <li>
+                <a ui-sref=".read" class="reading">
+                    读书
+                </a>
+            </li>
+            <li>
+                <a ui-sref=".tv" class="TV">
+                    电视
+                </a>
+            </li>
+            <li>
+                <a ui-sref=".activity" class="active">
+                    活动
+                </a>
+            </li>
+            <li>
+                <a ui-sref=".music" class="music">
+                    音乐
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div ui-view=""></div>
+
+</div>

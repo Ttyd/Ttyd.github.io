@@ -1,0 +1,44 @@
+<div class="group">
+    <div class="head">
+        <p>小组</p>
+        <a ui-sref="group_searchPage"></a>
+        <a ui-sref="chat"></a>
+    </div>
+    <div class="check_good">
+        <p>40万小组等你来玩</p>
+        <div class="go_myGroup">选好了，去玩小组</div>
+    </div>
+    <div class="block"></div>
+    <div class="school_work">
+        <p>—— 这里的人都喜欢生活 ——</p>
+        <div ng-repeat="x in data.data">
+            <a ng-click="toProvideId(x.id)">
+                <dl>
+                    <dt><img ng-src="{{x.img}}"></dt>
+                    <dd>
+                        <h4>{{x.name}}</h4>
+                        <span>成员：{{x.memberNum}}人</span>
+                        <p>小组标签：{{x.tag}}</p>
+                    </dd>
+                </dl>
+            </a>
+            <div class="checked" isChecked="false" groupId="{{x.id}}" ng-click="checkGroup($event)"><img src="img/group_check.png" alt=""></div>
+        </div>
+    </div>
+    <div class="school_work">
+        <p>—— 这里的人都喜欢健身 ——</p>
+        <div ng-repeat="x in data.data">
+            <a ng-click="toProvideId(x.id)">
+                <dl>
+                    <dt><img ng-src="{{x.img}}"></dt>
+                    <dd>
+                        <h4>{{x.name}}</h4>
+                        <span>成员：{{x.memberNum}}人</span>
+                        <p>小组标签：{{x.tag}}</p>
+                    </dd>
+                </dl>
+            </a>
+            <div class="checked" isChecked="false" groupId="{{x.id}}" ng-click="checkGroup($event)"><img src="img/group_check.png" alt=""></div>
+        </div>
+    </div>
+</div>

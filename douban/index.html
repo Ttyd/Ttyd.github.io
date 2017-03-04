@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>豆瓣</title>
+    <script src="lib/jquery.js"></script>
+    <script src="util/reconf.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="util/reset.css">
+    <link rel="stylesheet" href="util/swiper-3.3.1.min.css">
+</head>
+<body ng-app="myDouban">
+<div ui-view></div>
+<!--底部菜单栏-->
+<div class="mod-footer">
+    <ul class="bottom">
+        <a class="cur" ui-sref="home">
+            <li class="home">
+                <div></div>
+                <p>首页</p>
+            </li>
+        </a>
+        <a ui-sref="media.movie">
+            <li class="media">
+                <div></div>
+                <p>书影音</p>
+            </li>
+        </a>
+        <a ui-sref="broadcast">
+            <li class="broadcast">
+                <div></div>
+                <p>广播</p>
+            </li>
+        </a>
+        <a ui-sref="group">
+            <li class="group">
+                <div></div>
+                <p>小组</p>
+            </li>
+        </a>
+        <a ui-sref="mine">
+            <li class="mine">
+                <div></div>
+                <p>我的</p>
+            </li>
+        </a>
+    </ul>
+</div>
+<script>
+    //设置bottom菜单样式
+    var remFontSize = parseFloat($("html").css('fontSize'));
+    //从缓存中读取当前所处的位置 将该位置设置为选中样式
+    if(sessionStorage.getItem('curIndex')){
+        var curIndex = sessionStorage.getItem('curIndex');
+        $(".cur").find("div").css("backgroundPositionY",($(".cur").index()*2)*(-0.75)+"rem").end().removeClass("cur");
+        $('.bottom a').eq(curIndex).addClass("cur").find("div").css("backgroundPositionY",(curIndex*2+1)*(-0.75)+"rem");
+    };
+
+    //设置底部菜单的点击切换选中样式事件
+    $('.bottom a').on('click',function () {
+
+        $(".cur").find("div").css("backgroundPositionY",($(".cur").index()*2)*(-0.75)+"rem").end().removeClass("cur");
+
+        $(this).addClass("cur").find("div").css("backgroundPositionY",($(this).index()*2+1)*(-0.75)+"rem");
+        sessionStorage.setItem('curIndex',$(this).index());
+    });
+
+</script>
+<!--引入需要的模块js-->
+<script src="./lib/angular.min.js"></script>
+<script src="./lib/angular-ui-router.js"></script>
+<script src="./lib/angular-css.min.js"></script>
+<script src="./app.js"></script>
+<script src="./components/home/home.js"></script>
+<script src="./components/chat/chat.js"></script>
+<script src="./components/home_search/home_search.js"></script>
+<script src="./components/programa/programa.js"></script>
+<script src="./components/programa_detail/programa_detail.js"></script>
+<script src="./components/broadcast/broadcast.js"></script>
+<script src="./components/group/group.js"></script>
+<script src="./components/group_homePage/group_homePage.js"></script>
+<script src="./components/group_searchPage/group_searchPage.js"></script>
+<script src="./components/broadcast_sentPage/broadcast_sentPage.js"></script>
+<script src="./components/broadcast_searchPage/broadcast_searchPage.js"></script>
+<script src="./components/mine/mine.js"></script>
+<script src="./components/mine_setting/mine_setting.js"></script>
+<script src="./components/login/login.js"></script>
+<script src="./components/myOrder/myOrder.js"></script>
+<script src="./components/group_myGroup/group_myGroup.js"></script>
+<script src="./components/media/media.js"></script>
+<script src="./lib/swiper-3.3.1.jquery.min.js"></script>
+</body>
+</html>

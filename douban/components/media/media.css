@@ -1,0 +1,152 @@
+.media {
+  padding-bottom: 1.53125rem;
+}
+.media .omit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.media .naviBorder {
+  border-bottom: 0.0625rem solid #68cb78;
+}
+.media .movieMain {
+  font-size: 0;
+  background-color: white;
+  margin-top: 0.453125rem;
+}
+.media .movieMain .movieTop {
+  height: 1.90625rem;
+  line-height: 1.90625rem;
+}
+.media .movieMain .movieTop h3 {
+  font-size: 0.5rem;
+  font-weight: normal;
+  display: inline-block;
+}
+.media .movieMain .movieTop .moreMovie {
+  float: right;
+  display: inline-block;
+  font-size: 0.40625rem;
+}
+.media .movieMain .movieTop .moreMovie a {
+  color: #42bd56;
+}
+.media div[class^=movie] {
+  font-size: 0;
+  padding-left: 0.4375rem;
+  padding-right: 0.4375rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.media div[class^=movie] dl {
+  width: 2.65625rem;
+  display: inline-block;
+  margin-right: 0.578125rem;
+  padding-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+.media div[class^=movie] dl dt img {
+  width: 2.65625rem;
+  height: 3.734375rem;
+}
+.media div[class^=movie] dl dd {
+  line-height: 0.5rem;
+  font-size: 0.375rem;
+  color: #494949;
+}
+.media div[class^=movie] dl dd:first-of-type {
+  margin-top: 0.15625rem;
+}
+.media div[class^=movie] dl .singer {
+  margin-bottom: 0.15625rem;
+  color: #9b9b9b;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.media div[class^=movie] dl dd:last-of-type span {
+  font-size: 0.28125rem;
+  color: #9b9b9b;
+}
+.media div[class^=movie] dl dd:last-of-type img {
+  width: 0.3125rem;
+  height: 0.3125rem;
+  margin-right: 0.015625rem;
+}
+.media div[class^=movie] dl dd:last-of-type img:last-of-type {
+  margin-right: 0.09375rem;
+}
+.media div[class^=movie] dl:last-of-type {
+  vertical-align: top;
+}
+.media div[class^=movie] dl:last-of-type dt {
+  padding: 1.21875rem 0 1.265625rem;
+}
+.media div[class^=movie] dl:last-of-type dt p {
+  text-align: center;
+  width: 0.9375rem;
+  margin: 0 auto;
+}
+.media div[class^=movie] dl:last-of-type dt p:first-of-type {
+  font-size: 0.4375rem;
+  height: 0.6875rem;
+  line-height: 0.6875rem;
+  color: #494949;
+  border-bottom: 0.015625rem solid #cccccc;
+}
+.media div[class^=movie] dl:last-of-type dt p:last-of-type {
+  font-size: 0.375rem;
+  height: 0.53125rem;
+  line-height: 0.53125rem;
+  color: #9b9b9b;
+}
+.media .hide {
+  display: none;
+}
+.media .dingwei {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f8f8f8;
+  z-index: 100;
+  width: 100%;
+}
+.media .dingwei .top {
+  height: 1.6875rem;
+  line-height: 1.6875rem;
+  text-align: center;
+  font-size: 0.5rem;
+  border-bottom: 0.015625rem solid #b2b2b2;
+  padding-left: 3.4rem;
+}
+.media .dingwei .top .image {
+  float: right;
+  padding: 0 0.46875rem;
+}
+.media .dingwei .top .image a {
+  display: inline-block;
+}
+.media .dingwei .top .image a img {
+  width: 0.703125rem;
+  height: 0.703125rem;
+  vertical-align: middle;
+}
+.media .dingwei .top .image a:first-of-type {
+  margin-right: 0.875rem;
+}
+.media .dingwei .navi {
+  width: 100%;
+  height: 1.359375rem;
+  line-height: 1.359375rem;
+  border-bottom: 0.015625rem solid #dfdfdf;
+  background-color: white;
+  font-size: 0;
+}
+.media .dingwei .navi li {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  font-size: 0.4375rem;
+  color: #9b9b9b;
+  vertical-align: top;
+}

@@ -1,0 +1,60 @@
+.mod-myOrder {
+  width: 10rem;
+  padding-bottom: 1.53125rem;
+}
+.mod-myOrder header {
+  height: 1.6875rem;
+  background-color: #f8f8f8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-bottom: 1px solid #adadad;
+}
+.mod-myOrder header h1 {
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1.6875rem;
+}
+.mod-myOrder header a {
+  width: 0.296875rem;
+  height: 0.546875rem;
+  position: absolute;
+  bottom: 0.546875rem;
+  left: 0.453125rem;
+  font-size: 0;
+}
+.mod-myOrder header a img {
+  width: 0.296875rem;
+  height: 0.546875rem;
+}
+.mod-myOrder .lists {
+  position: relative;
+  margin-top: 2rem;
+}
+.mod-myOrder .lists .empty {
+  height: 1.078125rem;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #dfdfdf;
+}
+.mod-myOrder .lists .contents {
+  font-size: 0.46875rem;
+  padding-left: 0.46875rem;
+  border-bottom: 1px solid #dfdfdf;
+  background-color: #ffffff;
+}
+.mod-myOrder .lists .contents a {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #dfdfdf;
+}
+.mod-myOrder .lists .contents a li {
+  height: 1.34375rem;
+  line-height: 1.34375rem;
+  background-image: url(../../img/setting_point.png) no-repeat 8.8125rem;
+  background-size: 0.25rem 0.40625rem;
+}
+.mod-myOrder .lists .contents a:last-of-type {
+  border-bottom: none;
+}

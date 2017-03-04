@@ -1,0 +1,340 @@
+<div class="mediaTv">
+    <div class="Main1">
+        <div class="yyry movieMain">
+            <div class="movieTop">
+                <h3>
+                    近期值得看的国产剧
+                </h3>
+                <p class="moreMovie">
+                    <a href="##">
+                        更多&nbsp;&gt;
+                    </a>
+                </p>
+            </div>
+            <div class="movie1">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <dl class="swiper-slide" ng-repeat="x in data.Television.China.banner">
+                            <dt>
+                                <img ng-src="{{x.cover}}">
+                            </dt>
+                            <dd  class="omit">{{x.title}}</dd>
+                            <dd>
+                                <img ng-src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-halfstar.png">
+                                <span>{{x.rate}}</span>
+                            </dd>
+                        </dl>
+                        <dl class="swiper-slide">
+                            <dt>
+                                <p>
+                                    全部
+                                </p>
+                                <p class="all">
+                                    {{data.Television.Japanese.num}}部
+                                </p>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jjsy movieMain">
+            <div class="movieTop">
+                <h3>
+                    近期值得看的美剧
+                </h3>
+                <p class="moreMovie">
+                    <a href="##">
+                        更多&nbsp;&gt;
+                    </a>
+                </p>
+            </div>
+            <div class="movie2">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <dl class="swiper-slide" ng-repeat="x in data.Television.America.banner">
+                            <dt>
+                                <img ng-src="{{x.cover}}">
+                            </dt>
+                            <dd  class="omit">{{x.title}}</dd>
+                            <dd>
+                                <img ng-src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-halfstar.png">
+                                <span>{{x.rate}}</span>
+                            </dd>
+                        </dl>
+                        <dl class="swiper-slide">
+                            <dt>
+                                <p>
+                                    全部
+                                </p>
+                                <p class="all">
+                                    {{data.Television.Japanese.num}}部
+                                </p>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jjsy movieMain">
+            <div class="movieTop">
+                <h3>
+                    近期值得看的日剧
+                </h3>
+                <p class="moreMovie">
+                    <a href="##">
+                        更多&nbsp;&gt;
+                    </a>
+                </p>
+            </div>
+            <div class="movie2">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <dl class="swiper-slide" ng-repeat="x in data.Television.Japanese.banner">
+                            <dt>
+                                <img ng-src="{{x.cover}}">
+                            </dt>
+                            <dd  class="omit">{{x.title}}</dd>
+                            <dd>
+                                <img ng-src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-halfstar.png">
+                                <span>{{x.rate}}</span>
+                            </dd>
+                        </dl>
+                        <dl class="swiper-slide">
+                            <dt>
+                                <p>
+                                    全部
+                                </p>
+                                <p class="all">
+                                    {{data.Television.Japanese.num}}部
+                                </p>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jjsy movieMain">
+            <div class="movieTop">
+                <h3>
+                    近期值得看的综艺节目
+                </h3>
+                <p class="moreMovie">
+                    <a href="##">
+                        更多&nbsp;&gt;
+                    </a>
+                </p>
+            </div>
+            <div class="movie2">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <dl class="swiper-slide" ng-repeat="x in data.Television.Variety.banner">
+                            <dt>
+                                <img ng-src="{{x.cover}}">
+                            </dt>
+                            <dd  class="omit">{{x.title}}</dd>
+                            <dd>
+                                <img ng-src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-allstar.png">
+                                <img src="img/booksOrPhotocopies-halfstar.png">
+                                <span>{{x.rate}}</span>
+                            </dd>
+                        </dl>
+                        <dl class="swiper-slide">
+                            <dt>
+                                <p>
+                                    全部
+                                </p>
+                                <p class="all">
+                                    {{data.Television.Japanese.num}}部
+                                </p>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dbc movieMain">
+            <div class="movieTop">
+                <h3>
+                    豆瓣猜
+                </h3>
+            </div>
+            <div class="movie4">
+                <dl ng-repeat="x in data.Television.hot.banner">
+                    <dt>
+                        <img ng-src="{{x.cover}}">
+                    </dt>
+                    <dd class="omit">
+                        {{x.title}}
+                    </dd>
+                    <dd>
+                        <img src="img/booksOrPhotocopies-allstar.png">
+                        <img src="img/booksOrPhotocopies-allstar.png">
+                        <img src="img/booksOrPhotocopies-allstar.png">
+                        <img src="img/booksOrPhotocopies-halfstar.png">
+                        <img src="img/booksOrPhotocopies-emptystar.png">
+                        <span>
+                            {{x.rate}}
+                        </span>
+                    </dd>
+                </dl>
+            </div>
+            <p class="refresh">
+                <a href="##">
+                    <img src="img/booksOrPhotocopies-refresh.png">
+                    换一批
+                </a>
+            </p>
+        </div>
+        <div class="cinecism movieMain">
+            <div class="movieTop">
+                <h3>
+                    最受欢迎影评
+                </h3>
+                <p class="moreMovie">
+                    <a href="##">
+                        更多&nbsp;&gt;
+                    </a>
+                </p>
+            </div>
+            <div class="review" ng-repeat="t in data.Television.popular.banner">
+                <div class="reviewWords">
+                    <p class="title">{{t.name}}</p>
+                    <p class="feel">
+                        {{t.say}}
+                    </p>
+                    <p class="line">
+                    <p class="view">
+                        <span class="viewer">
+                            {{t.come}}&nbsp;
+                        </span>
+                        评论
+                        <span class="film">
+                            {{t.name}}
+                        </span>
+                    </p>
+                </div>
+                <p class="poster">
+                    <img ng-src="{{t.img}}">
+                </p>
+            </div>
+        </div>
+        <div class="choose">
+            <h3>
+                选电视剧
+            </h3>
+            <div class="options">
+                <p class="chooser">
+                <span>
+                    美剧
+                </span>
+                    <span>
+                    英剧
+                </span>
+                    <span>
+                    韩剧
+                </span>
+                    <span>
+                    国产剧
+                </span>
+                    <span>
+                    港剧
+                </span>
+                    <span>
+                    日剧
+                </span>
+                    <span>
+                    动漫
+                </span>
+                    <span>
+                    综艺
+                </span>
+                </p>
+            </div>
+        </div>
+        <div class="find">
+            <div class="findTop">
+                <div class="bangDan">
+                    <h3>
+                        发现好电影
+                    </h3>
+                    <p>
+                        豆瓣网友制作的电影榜单
+                    </p>
+                </div>
+                <p class="findMore">
+                    <a href="##">
+                        更多&nbsp;&gt;
+                    </a>
+                </p>
+            </div>
+            <div class="content">
+                <div class="movTitle">
+                    <p class="movName">
+                        同时入选IMDB250和豆瓣250的电影
+                    </p>
+                    <span>
+                        115129收藏
+                    </span>
+                </div>
+                <div class="pic">
+                    <img src="img/booksOrPhotocopies-select1.png">
+                </div>
+            </div>
+            <div class="content">
+                <div class="movTitle">
+                    <p class="movName">
+                        带你进入不正常的世界
+                    </p>
+                    <span>
+                        30019收藏
+                    </span>
+                </div>
+                <div class="pic">
+                    <img src="img/booksOrPhotocopies-select2.png">
+                </div>
+            </div>
+            <div class="content">
+                <div class="movTitle">
+                    <p class="movName">
+                        用电【影】来祭奠逝去的岁月
+                    </p>
+                    <span>
+                        12125收藏
+                    </span>
+                </div>
+                <div class="pic">
+                    <img src="img/booksOrPhotocopies-select3.png">
+                </div>
+            </div>
+            <div class="content">
+                <div class="movTitle">
+                    <p class="movName">
+                        同时入选IMDB250和豆瓣250的电影
+                    </p>
+                    <span>
+                        115129收藏
+                    </span>
+                </div>
+                <div class="pic">
+                    <img src="img/booksOrPhotocopies-select1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

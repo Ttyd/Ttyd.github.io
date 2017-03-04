@@ -1,0 +1,169 @@
+.media{
+  //------------ 公用样式  开头-------------
+  //           ------- 溢出省略 ------
+  padding-bottom: 1.53125rem;
+  .omit{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  //           ------- 导航部分 ------
+  .naviBorder{
+    border-bottom: 4/64rem solid #68cb78;
+  }
+  //         ------- 电影主体部分 ------
+  .movieMain{
+    font-size: 0;
+    background-color: white;
+    margin-top: 29/64rem;
+    .movieTop{
+      height: 122/64rem;
+      line-height: 122/64rem;
+      h3{
+        font-size: 32/64rem;
+        font-weight: normal;
+        display: inline-block;
+      }
+      .moreMovie{
+        float: right;
+        display: inline-block;
+        font-size: 26/64rem;
+        a{
+          color: #42bd56;
+        }
+      }
+    }
+  }
+  //         ------- class以movie开头的共用样式 --------
+  div[class^=movie]{
+    font-size: 0;
+    padding-left: 28/64rem;
+    padding-right: 28/64rem;
+    overflow: hidden;
+    white-space: nowrap;
+    dl{
+      width: 2.65625rem;
+      display: inline-block;
+      margin-right: 0.578125rem;
+      padding-bottom: 0.5rem;
+      box-sizing: border-box;
+      dt{
+        img{
+          width: 170/64rem;
+          height: 239/64rem;
+        }
+      }
+      dd{
+        line-height: 32/64rem;
+        font-size: 24/64rem;
+        color: #494949;
+      }
+      dd:first-of-type{
+        margin-top: 10/64rem;
+      }
+      .singer{
+        margin-bottom: 10/64rem;
+        color:#9b9b9b;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      dd:last-of-type{
+        span{
+          font-size: 18/64rem;
+          color: #9b9b9b;
+        }
+        img{
+          width: 20/64rem;
+          height: 20/64rem;
+          margin-right: 1/64rem;
+        }
+        img:last-of-type{
+          margin-right: 6/64rem;
+        }
+      }
+    }
+    dl:last-of-type{
+      vertical-align: top;
+      dt{
+        padding: 78/64rem 0 81/64rem;
+        p{
+          text-align: center;
+          width: 60/64rem;
+          margin: 0 auto;
+        }
+        p:first-of-type{
+          font-size: 28/64rem;
+          height: 44/64rem;
+          line-height: 44/64rem;
+          color: #494949;
+          border-bottom: 1/64rem solid #cccccc;
+        }
+        p:last-of-type{
+          font-size: 24/64rem;
+          height: 34/64rem;
+          line-height: 34/64rem;
+          color: #9b9b9b;
+        }
+      }
+    }
+  }
+
+  //         -------- 隐藏 ---------
+  .hide{
+    display: none;
+  }
+  //------------ 公用样式  结尾-------------
+
+
+  //--------------- 头部定位 -------------------
+  .dingwei{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f8f8;
+    z-index: 100;
+    width: 100%;
+    //---------- top -----------
+    .top{
+      height: 108/64rem;
+      line-height: 108/64rem;
+      text-align: center;
+      font-size: 32/64rem;
+      border-bottom: 1/64rem solid #b2b2b2;
+      padding-left: 3.4rem;
+      .image{
+        float: right;
+        padding: 0 30/64rem;
+        a{
+          display: inline-block;
+          img{
+            width: 45/64rem;
+            height: 45/64rem;
+            vertical-align: middle;
+          }
+        }
+        a:first-of-type{
+          margin-right: 56/64rem;
+        }
+      }
+    }
+    //--------- navi ----------
+    .navi{
+      width: 100%;
+      height: 87/64rem;
+      line-height: 87/64rem;
+      border-bottom: 1/64rem solid #dfdfdf;
+      background-color: white;
+      font-size: 0;
+      li{
+        text-align: center;
+        width: 20%;
+        display: inline-block;
+        font-size: 28/64rem;
+        color: #9b9b9b;
+        vertical-align: top;
+      }
+    }
+  }
+}

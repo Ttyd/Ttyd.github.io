@@ -1,0 +1,24 @@
+<div class="mod-login">
+	<div class="header"><img src="img/login_1_03.png" alt="" /></div>
+	<h1>欢迎来到豆瓣</h1>
+	<div class="form-group">
+		<form name="regForm" ng-submit="validation()" novalidate>
+			<input type="text" name="userName" placeholder=" 手机号 / 邮箱" ng-model="userName" ng-pattern="/(^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$)|(^((\(\d{3}\))|(\d{3}\-))?(1[3578]\d{9})$)/" required />
+			<input type="password" name="pwd" placeholder=" 密码" ng-model="pwd" required />
+			<button class="log" name="login" type="submit" ng-disabled="regForm.$invalid">登录</button>
+		</form>
+
+	</div>
+	<span ng-show="!regForm.userName.$pristine && regForm.userName.$error.required" class="usererror">请填写手机号或邮箱</span>
+	<span ng-show="!regForm.userName.$pristine && regForm.userName.$error.pattern" class="usererror" >只支持手机号或邮箱</span>
+
+	<span ng-show="!regForm.pwd.$pristine && regForm.pwd.$invalid" class="pwderror">请填写密码</span>
+	<div class="regOrgetPwd">
+		<a href="">注册豆瓣</a>
+		<a href="">忘记密码</a>
+	</div>
+	<div class="otherLogin">
+		<a href="">微博登录</a>
+		<a href="">微信登录</a>
+	</div>
+</div>

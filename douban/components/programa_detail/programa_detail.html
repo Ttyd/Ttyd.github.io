@@ -1,0 +1,23 @@
+<div class="programa_detail">
+    <header>
+        <div class="return"></div>
+        <span class="title">{{data.programa}}</span>
+    </header>
+    <div class="list">
+        <div class="item" ng-repeat="x in data.info">
+            <div class="main">
+                <div class="main_content">
+                    <div class="main_title">{{x.title}}</div>
+                    <div class="main_info">{{x.info}}</div>
+                </div>
+                <div class="main_photo">
+                    <img ng-src="{{x.url}}" alt="">
+                </div>
+                <p class="line">
+                    <span></span>
+                </p>
+                <p class="author">作者:{{x.author}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+<div class="group_myGroup">
+	<div class="head">
+		<p>小组</p>
+		<a ui-sref="group_searchPage"><img src="img/group_search.png" alt=""></a>
+		<a ui-sref="chat"><img src="img/group_say.png" alt=""></a>
+	</div>
+	<div class="block"></div>
+	<div class="tarItem">
+		<a href="" class="item">
+			<img src="img/myGroup1.png" alt="" />
+			<span>最新话题</span>
+		</a>
+		<a href="" class="item">
+			<img src="img/myGroup2.png" alt="" />
+			<span>发表的</span>
+		</a>
+		<a href="" class="item">
+			<img src="img/myGroup3.png" alt="" />
+			<span>回应的</span>
+		</a>
+		<a href="" class="item">
+			<img src="img/myGroup4.png" alt="" />
+			<span>最近浏览</span>
+		</a>
+	</div>
+	<div class="select-group">
+		<h1>—&nbsp;精选小组&nbsp;—</h1>
+		<div class="selctImg">
+			<a href=""><img src="img/mygroup_banner0.png" alt="" /></a>
+			<a href=""><img src="img/mygroup_banner1.png" alt="" /></a>
+			<a href=""><img src="img/mygroup_banner2.png" alt="" /></a>
+			<a href=""><img src="img/mygroup_banner3.png" alt="" /></a>
+			<a href=""><img src="img/mygroup_banner4.png" alt="" /></a>
+		</div>
+	</div>
+	<div class="mine">
+		<h1>—&nbsp;我的小组&nbsp;—</h1>
+		<ul class="lists">
+			<li ng-repeat="x in groupInfo" class="myGroupList" ng-click="toProvideId(x.id)"><a href=""><img ng-src="{{x.img}}"/><span>{{x.name}}</span></a></li>
+		</ul>
+	</div>
+	<div class="empty"></div>
+	<div class="joinGroup">
+		<span>更多精彩小组等您加入</span>
+		<a ui-sref="group"><img src="img/myGroup_go.png" alt="" /></a>
+	</div>
+</div>

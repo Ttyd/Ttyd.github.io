@@ -1,0 +1,20 @@
+<div class="broadcast_searchPage">
+  <div class="search">
+      <input type="text" placeholder="搜索豆瓣用户" ng-model="a">
+      <img src="img/bsp_search.png" >
+      <div class="cancel">取消</div>
+  </div>
+  <div class="block"></div>
+  <div class="user"><p>用户</p></div>
+  <div class="content">
+      <dl ng-repeat="x in data.search | filter:a">
+          <dt><img ng-src="{{x.cover_url}}"></dt>
+          <dd>{{x.name}}<span>{{x.concern}}人关注/ 所在地:{{x.from}}</span>
+          </dd>
+      </dl>
+  </div>
+  <div class="more">
+      <p>查看更多用户</p>
+      <img src="img/bsp_right.png" alt="">
+  </div>
+</div>

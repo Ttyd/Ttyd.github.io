@@ -1,0 +1,83 @@
+{
+	"data":[{
+		"id":"0001",
+		"kind":"entertainment",
+		"name":"女流氓大本营",
+		"memberNum":"80843",
+		"tag":"重口味，女流氓",
+		"img":"https://img3.doubanio.com/icon/g368701-1.jpg",
+		"intro":"爱生活，爱型男，爱重口味，我们是新时代的女流氓！"
+	},{
+		"id":"0002",
+		"kind":"life",
+		"name":"老北京旅游攻略",
+		"memberNum":"14212",
+		"tag":"北京，旅游，攻略",
+		"img":"https://img3.doubanio.com/icon/g288398-1.jpg",
+		"intro":"这就是北京，一座充满了魅力的城市。 "
+	},{
+		"id":"0003",
+		"kind":"life",
+		"name":"我只是不知道应该拿自己怎么办",
+		"memberNum":"86987",
+		"tag":"无奈，没办法",
+		"img":"https://img1.doubanio.com/icon/g68428-19.jpg",
+		"intro":"我对你们的小嘲笑，小讽刺，小伤害，小小的冷淡， 都是因为， 我只是不知道应该拿自己怎么办。 "
+	},{
+		"id":"0004",
+		"kind":"life",
+		"name":"一个人看电影",
+		"memberNum":"182675",
+		"tag":"电影，一个人，单身",
+		"img":"https://img3.doubanio.com/icon/g72290-1.jpg",
+		"intro":"一个人看电影， 一个人吃饭， 一个人逛街， 一个人看书， 一个人......."
+	},{
+		"id":"0005",
+		"kind":"culture",
+		"name":"小清新",
+		"memberNum":"113819",
+		"tag":"小清新，indie，花草派",
+		"img":"https://img3.doubanio.com/icon/g31017-1.jpg",
+		"intro":"永远活在春天和夏天里的音乐 "
+	},{
+		"id":"0006",
+		"kind":"life",
+		"name":"自己做饭自己吃",
+		"memberNum":"77616",
+		"tag":"做饭，一个人，生活，烹饪",
+		"img":"https://img3.doubanio.com/icon/g90882-5.jpg",
+		"intro":"我们不爱吃快餐，我们一个人住，我们做的饭只有自己吃。 "
+	},{
+		"id":"0007",
+		"kind":"fitness",
+		"name":"喜欢跑步的人",
+		"memberNum":"273172",
+		"tag":"运动，健康，马拉松",
+		"img":"https://img3.doubanio.com/icon/g19314-6.jpg",
+		"intro":"如果你想聪明，跑步吧！如果你想强壮，跑步吧！如果你想健康，跑步吧！ "
+	},{
+		"id":"0008",
+		"kind":"game",
+		"name":"魔兽世界",
+		"memberNum":"64658",
+		"tag":"电脑游戏，网络游戏，暴雪",
+		"img":"https://img3.doubanio.com/icon/g12400-81.jpg",
+		"intro":"风暴，大地，火焰，接受我的召唤吧！ "
+	},{
+		"id":"0009",
+		"kind":"life",
+		"name":"微信",
+		"memberNum":"125705",
+		"tag":"微信，腾讯，互联网",
+		"img":"https://img3.doubanio.com/icon/g317932-5.jpg",
+		"intro":"微信组逼格极低，素质极差，入组需谨慎。 "
+	},{
+		"id":"0010",
+		"kind":"culture",
+		"name":"路过心上的句子",
+		"memberNum":"146096",
+		"tag":"句子，感动，词",
+		"img":"https://img3.doubanio.com/icon/g14771-16.jpg",
+		"intro":"你想要不变心的情人，还是永远不老的青春。"
+	}]
+}

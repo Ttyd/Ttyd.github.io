@@ -1,0 +1,179 @@
+.mod-mine {
+  width: 10rem;
+  padding-bottom: 1.53125rem;
+}
+.mod-mine header {
+  height: 1.6875rem;
+  background: linear-gradient(to bottom, #f8f8f8, #eaf6ec);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.mod-mine header h1 {
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1.6875rem;
+}
+.mod-mine header a {
+  width: 0.625rem;
+  height: 0.625rem;
+  position: absolute;
+  bottom: 0.546875rem;
+  right: 0.5rem;
+  font-size: 0;
+}
+.mod-mine header a img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+.mod-mine .banner-noLogin {
+  position: relative;
+  margin-top: 1.6875rem;
+  height: 3.890625rem;
+  background-color: #5cc76d;
+  font-size: 0.53125rem;
+  border-top: 1px solid #388545;
+  color: white;
+}
+.mod-mine .banner-noLogin a {
+  display: flex;
+  color: white;
+}
+.mod-mine .banner-noLogin a .banner-left {
+  width: 3.28125rem;
+  height: 3.890625rem;
+}
+.mod-mine .banner-noLogin a .banner-left img {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 0.609375rem;
+  margin-left: 0.625rem;
+}
+.mod-mine .banner-noLogin a .banner-right {
+  line-height: 3.890625rem;
+}
+.mod-mine .banner-login {
+  position: relative;
+  margin-top: 1.6875rem;
+  height: 3.890625rem;
+  background-color: #5cc76d;
+  font-size: 0.53125rem;
+  border-top: 1px solid #57699f;
+  color: white;
+  display: flex;
+}
+.mod-mine .banner-login .banner-left {
+  width: 3.28125rem;
+  height: 3.890625rem;
+}
+.mod-mine .banner-login .banner-left img {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 0.609375rem;
+  margin-left: 0.625rem;
+}
+.mod-mine .banner-login .banner-right {
+  height: 3.890625rem;
+  width: 6.71875rem;
+}
+.mod-mine .banner-login .banner-right .top {
+  height: 2.328125rem;
+  border-bottom: 1px solid #9fb2eb;
+  overflow: hidden;
+}
+.mod-mine .banner-login .banner-right .top .userName {
+  margin-top: 0.765625rem;
+  height: 0.8125rem;
+  font-size: 0.53125rem;
+  line-height: 0.8125rem;
+}
+.mod-mine .banner-login .banner-right .top .personPage {
+  font-size: 0.34375rem;
+  height: 0.75rem;
+  background-image: url(../../img/mine_login_03.png) no-repeat 5.78125rem 0.078125rem;
+  background-size: 0.21875rem 0.375rem;
+}
+.mod-mine .banner-login .banner-right .top .personPage span {
+  display: inline-block;
+}
+.mod-mine .banner-login .banner-right .top .personPage .homepage {
+  margin-left: 1.640625rem;
+}
+.mod-mine .banner-login .banner-right .bottom {
+  line-height: 1.546875rem;
+}
+.mod-mine .banner-login .banner-right .bottom p {
+  display: inline-block;
+  font-size: 0.34375rem;
+  margin-right: 0.15625rem;
+}
+.mod-mine .banner-login .banner-right .bottom p span {
+  display: inline-block;
+  width: 0.78125rem;
+}
+.mod-mine .remind {
+  height: 3.125rem;
+  margin-top: 0.46875rem;
+  margin-bottom: 0.546875rem;
+  background-color: white;
+  padding-left: 0.625rem;
+}
+.mod-mine .remind .setting {
+  height: 1.671875rem;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 0.4375rem;
+  line-height: 1.671875rem;
+  background-image: url(../../img/mine_remind_pint.png) no-repeat 8.421875rem center;
+  background-size: 0.421875rem 0.46875rem;
+}
+.mod-mine .remind .setting img {
+  display: inline-block;
+  width: 0.5625rem;
+  height: 0.65625rem;
+  margin-right: 0.421875rem;
+  vertical-align: middle;
+}
+.mod-mine .remind ul {
+  height: 1.4375rem;
+  color: #d5d5d5;
+  font-size: 0.3125rem;
+  text-align: center;
+  line-height: 1.4375rem;
+}
+.mod-mine .myItem {
+  background-color: white;
+}
+.mod-mine .myItem .item {
+  height: 3.203125rem;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mod-mine .myItem .item a {
+  width: 1.71875rem;
+  height: 1.53125rem;
+  font-size: 0.375rem;
+  text-align: center;
+}
+.mod-mine .myItem .item a img {
+  display: inline-block;
+  width: 0.8125rem;
+  height: 0.8125rem;
+  margin-bottom: 0.390625rem;
+}
+.mod-mine .myItem .item:last-of-type {
+  justify-content: flex-start;
+}
+.mod-mine .myItem .item:last-of-type a {
+  margin-left: 0.3125rem;
+}
+.mod-mine .myItem .item:last-of-type a:last-of-type {
+  margin-left: 0.78125rem;
+}

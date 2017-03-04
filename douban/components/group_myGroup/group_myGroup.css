@@ -1,0 +1,154 @@
+.group_myGroup {
+  background-color: #f8f8f8;
+  margin-bottom: 1.53125rem;
+  width: 10rem;
+}
+.group_myGroup .head {
+  width: 10rem;
+  height: 1.6875rem;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #b2b2b2;
+  position: fixed;
+  top: 0rem;
+  right: 0;
+  left: 0;
+}
+.group_myGroup .head p {
+  line-height: 1.6875rem;
+  font-size: 0.5rem;
+  display: inline-block;
+  margin-left: 4.46875rem;
+}
+.group_myGroup .head img {
+  width: 0.96875rem;
+  height: 0.96875rem;
+  vertical-align: middle;
+  margin-left: 0.78125rem;
+}
+.group_myGroup .block {
+  width: 10rem;
+  height: 1.6875rem;
+}
+.group_myGroup .tarItem {
+  height: 2.78125rem;
+  box-sizing: border-box;
+  padding: 0.609375rem 0;
+  border-bottom: 1px solid #ececec;
+  background-color: white;
+  font-size: 0;
+}
+.group_myGroup .tarItem a {
+  display: inline-block;
+  width: 2.46875rem;
+  border-right: 1px solid #ececec;
+  text-align: center;
+}
+.group_myGroup .tarItem a img {
+  width: 0.78125rem;
+  height: 0.78125rem;
+}
+.group_myGroup .tarItem a span {
+  display: inline-block;
+  width: 2.46875rem;
+  height: 0.78125rem;
+  line-height: 0.78125rem;
+  text-align: center;
+  font-size: 0.375rem;
+}
+.group_myGroup .tarItem a:last-of-type {
+  border-right: none;
+}
+.group_myGroup .select-group {
+  background-color: white;
+}
+.group_myGroup .select-group h1 {
+  height: 1.40625rem;
+  line-height: 1.40625rem;
+  text-align: center;
+  font-size: 0.46875rem;
+}
+.group_myGroup .select-group .selctImg {
+  height: 3.4375rem;
+  background-color: #f8f8f8;
+  font-size: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.group_myGroup .select-group .selctImg a {
+  margin-top: 0.46875rem;
+  margin-left: 0.46875rem;
+  display: inline-block;
+}
+.group_myGroup .select-group .selctImg a img {
+  display: inline-block;
+  width: 5.9375rem;
+  height: 2.5rem;
+}
+.group_myGroup .select-group .selctImg a:last-of-type {
+  margin-right: 0.46875rem;
+}
+.group_myGroup .mine {
+  background-color: white;
+}
+.group_myGroup .mine h1 {
+  height: 1.40625rem;
+  text-align: center;
+  line-height: 1.40625rem;
+  font-size: 0.46875rem;
+}
+.group_myGroup .mine .lists {
+  padding-left: 0.46875rem;
+}
+.group_myGroup .mine .lists li {
+  width: 100%;
+  display: inline-block;
+  height: 2.015625rem;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 2.015625rem;
+  font-size: 0;
+}
+.group_myGroup .mine .lists li a {
+  display: inline-block;
+  height: 2.015625rem;
+  line-height: 2.015625rem;
+  font-size: 0;
+  display: flex;
+  align-items: center;
+}
+.group_myGroup .mine .lists li a img {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.group_myGroup .mine .lists li a span {
+  margin-left: 0.34375rem;
+  display: inline-block;
+  font-size: 0.4375rem;
+  line-height: 2.015625rem;
+}
+.group_myGroup .empty {
+  height: 0.46875rem;
+  background-color: #f8f8f8;
+}
+.group_myGroup .joinGroup {
+  height: 2.171875rem;
+  background-color: white;
+  font-size: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.group_myGroup .joinGroup span {
+  display: inline-block;
+  margin-left: 0.65625rem;
+}
+.group_myGroup .joinGroup a {
+  display: inline-block;
+  width: 2.96875rem;
+  height: 0.875rem;
+  margin-left: 0.65625rem;
+}
+.group_myGroup .joinGroup a img {
+  display: inline-block;
+  width: 2.96875rem;
+  height: 0.875rem;
+}

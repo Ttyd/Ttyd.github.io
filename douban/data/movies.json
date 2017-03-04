@@ -1,0 +1,215 @@
+{
+  "hotOn":[
+    {
+      "movies":"湄公河行动",
+      "score":"8.2",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2380677316.jpg"
+    },
+    {
+      "movies":"从你的全世界路过",
+      "score":"5.5",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2382076389.jpg"
+    },
+    {
+      "movies":"宾虚 Ben-Hur",
+      "score":"5.9",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2382529006.jpg"
+    },
+    {
+      "movies":"爵迹",
+      "score":"4.1",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2377470803.jpg"
+    },
+    {
+      "movies":"王牌逗王牌",
+      "score":"3.6",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2380681527.jpg"
+    },
+    {
+      "movies":"鲁滨逊漂流记 Robinson Crusoe",
+      "score":"5.5",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2384412081.jpg"
+    },
+    {
+      "movies":"逗鸟外传：萌宝满天飞 Storks ",
+      "score":"7.7",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2378515005.jpg"
+    },
+    {
+      "movies":"七月与安生",
+      "score":"7.7",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2378140502.jpg"
+    },
+    {
+      "movies":"地球四季 Les saisons",
+      "score":"7.5",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2384063655.jpg"
+    },
+    {
+      "movies":"铠甲勇士捕王",
+      "score":"3.7",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2382080217.jpg"
+    },
+    {
+      "movies":"星际迷航3：超越星辰 Star Trek Beyond",
+      "score":"7.4",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2377455123.jpg"
+    },
+    {
+      "movies":"幽灵医院",
+      "score":"2.4",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2384346460.jpg"
+    },
+    {
+      "movies":"追凶者也",
+      "score":"7.6",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2375882763.jpg"
+    }
+  ],
+  "hotNum":"27",
+  "readyOn":[
+    {
+      "movies":"黑处有什么",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2387538436.jpg",
+      "wooerNum":"7145"
+    },
+    {
+      "movies":"圆梦巨人",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2386736909.jpg",
+      "wooerNum":"6261"
+    },
+    {
+      "movies":"暗杀游戏",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2386072594.jpg",
+      "wooerNum":"7145"
+    },
+    {
+      "movies":"爱上处女座",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2373300031.jpg",
+      "wooerNum":"70"
+    },
+    {
+      "movies":"勇士",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2383975252.jpg",
+      "wooerNum":"61"
+    },
+    {
+      "movies":"爱神箭",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/spst/public/p2387868379.jpg",
+      "wooerNum":"27"
+    },
+    {
+      "movies":"心语阳光",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2385073102.jpg",
+      "wooerNum":"19"
+    },
+    {
+      "movies":"小熊的夏天",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2387607095.jpg",
+      "wooerNum":"13"
+    },
+    {
+      "movies":"四渡赤水",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2388072032.jpg",
+      "wooerNum":"9"
+    },
+    {
+      "movies":"T台魔王",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/spst/public/p2388159402.jpg",
+      "wooerNum":"3"
+    }
+  ],
+  "readyNum":"84",
+  "beanGuess":[
+    {
+      "movies":"殿下，这是利息！ 殿、利息でござる！",
+      "score":"6.6",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2377593309.jpg"
+    },
+    {
+      "movies":"超时空传输 ARQ ",
+      "score":"7.2",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2352112291.jpg"
+    },
+    {
+      "movies":"好邻居 The Good Neighbor",
+      "score":"6.7",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2374050235.jpg"
+    },
+    {
+      "movies":"她 Elle",
+      "score":"7.7",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2334053873.jpg"
+    },
+    {
+      "movies":"关灯后 Lights Out",
+      "score":"6.5",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2327225597.jpg"
+    },
+    {
+      "movies":"幸运是我 幸運是我",
+      "score":"7.8",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2373839669.jpg"
+    },
+    {
+      "movies":"微微一笑很倾城",
+      "score":"5.3",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2358355793.jpg"
+    },
+    {
+      "movies":"海蒂和爷爷 Heidi",
+      "score":"8.9",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2332944143.jpg"
+    },
+    {
+      "movies":"釜山行 부산행",
+      "score":"8.2",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2360940399.jpg"
+    },
+    {
+      "movies":"小戏骨：白蛇传",
+      "score":"9.0",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2387283233.jpg"
+    },
+    {
+      "movies":"你的名字。 君の名は",
+      "score":"9.0",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2388165695.jpg"
+    },
+    {
+      "movies":"追捕野蛮人",
+      "score":"8.1",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2371503931.jpg"
+    }
+  ],
+  "cinecism":[
+    {
+      "title":"请对得起自己良心，水军粉丝的恐怖",
+      "content":"看完电影后我亲眼看到这部片子神奇地从3分上升到4分，而在微博大片夸赞片子的影评后我很担心豆瓣也                成了水军，粉丝泛滥，是非不分肆意妄为的阵地。",
+      "user":"柒之曜 ",
+      "filmName":" 《爵迹》",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2377470803.jpg"
+    },
+    {
+      "title":"爱到生生死死，还不是因为寂寞到无话可说",
+      "content":"我不认为《全世界》是一部烂片，当然也不是一部优秀的电影。 仿佛就是坐在电影院里听着张一白和张                 嘉佳两个人给你讲故事，一个行走在城市里，关于孤独与如何慰藉孤独的故事。",
+      "user":"山水烟花 ",
+      "filmName":"《从你的全世界路过》",
+      "img":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2382076389.jpg"
+    },
+    {
+      "title":"《湄公河行动》电影里容易被忽视的细节",
+      "content":"在微博等其他平台溜了一圈，基本上看懂了的人都评价不错，吐槽的评论要么没认真看，要么是为了喷而                 喷。为喷而喷这一类就是闭眼黑，我也只能说“你高兴就好”，但没看懂的我就想唠叨两句了。",
+      "user":"建文朱允炆 ",
+      "filmName":" 《湄公河行动》",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2380677316.jpg"
+    },
+    {
+      "title":"最好的我们之间，隔了一整个青春",
+      "content":"看完这部剧，感慨颇多。 耿耿和余淮 从高中到大学再到工作，从感情懵懂到错过到再相遇，给人的感觉                都是很清新很真实的。 明明互相都对对方有感觉却都迟迟不敢迈步，小心翼翼却又爱意满满。",
+      "user":"钰小乖不乖 ",
+      "filmName":" 《最好的我们》",
+      "img":"https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2322919340.jpg"
+    }
+  ]
+}

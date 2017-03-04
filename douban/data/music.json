@@ -1,0 +1,322 @@
+{
+  "music": {
+    "huayuTotal": 22,
+    "huayuxindiebang": [
+      {
+        "url": "https://img3.doubanio.com/lpic/s29034516.jpg",
+        "music_name": "火炭麗琪",
+        "singer": "My Little Airport",
+        "evaluate": "8.2"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29064609.jpg",
+        "music_name": "年輪説(正式版)",
+        "singer": "楊丞琳",
+        "evaluate": "7.0"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29018457.jpg",
+        "music_name": "哥哥的歌",
+        "singer": "張國榮",
+        "evaluate": "9.2"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29064602.jpg",
+        "music_name": "JTW西遊記(正式雙碟版)",
+        "singer": "方大同",
+        "evaluate": "7.5"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29082106.jpg",
+        "music_name": "Vibes",
+        "singer": "張敬軒",
+        "evaluate": "6.6"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29066358.jpg",
+        "music_name": "我不要再比了",
+        "singer": "劉明湘",
+        "evaluate": "7.1"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29027600.jpg",
+        "music_name": "生",
+        "singer": "李宇春",
+        "evaluate": "8.4"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29034361.jpg",
+        "music_name": "Fabulous",
+        "singer": "鄭秀文",
+        "evaluate": "6.2"
+      }
+    ],
+    "oumeiTotal": 30,
+    "oumeixindiebang": [
+      {
+        "url": "https://img3.doubanio.com/lpic/s29024476.jpg",
+        "music_name": "Templates For Mimesis",
+        "singer": "The Seven Mile Journey",
+        "evaluate": "8.6"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29071580.jpg",
+        "music_name": "Oh My My",
+        "singer": "OneRepublic",
+        "evaluate": "6.5"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s28972837.jpg",
+        "music_name": "22, A Million",
+        "singer": "Bon Iver",
+        "evaluate": "8.2"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s28968748.jpg",
+        "music_name": "Revolution Radio",
+        "singer": "Green Day",
+        "evaluate": "6.9"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29071588.jpg",
+        "music_name": "A Seat At The Table",
+        "singer": "Solange",
+        "evaluate": "7.6"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s28931247.jpg",
+        "music_name": "Illuminate",
+        "singer": "Shawn Mendes",
+        "evaluate": "6.6"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29082413.jpg",
+        "music_name": "Day Breaks",
+        "singer": "Norah Jones",
+        "evaluate": "7.8"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29060073.jpg",
+        "music_name": "Sirens",
+        "singer": "The Weepies",
+        "evaluate": "8.7"
+      }
+    ],
+    "rihanTotal": 16,
+    "rihanxindiebang": [
+      {
+        "url": "https://img3.doubanio.com/lpic/s29000484.jpg",
+        "music_name": "Fantôme",
+        "singer": "宇多田ヒカル",
+        "evaluate": "8.8"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s28905364.jpg",
+        "music_name": "Requiem for Hell",
+        "singer": "Mono",
+        "evaluate": "7.8"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29080452.jpg",
+        "music_name": "1 of 1",
+        "singer": "The Beatles",
+        "evaluate": "7.9"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29024539.jpg",
+        "music_name": "Full Album RED PLANET",
+        "singer": "脸红的思春期,볼빨간 사춘기",
+        "evaluate": "8.4"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29065984.jpg",
+        "music_name": "2집 FLIGHT LOG : TURBULENCE",
+        "singer": "GOT7,갓세븐",
+        "evaluate": "6.5"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s28983624.jpg",
+        "music_name": "daydream(通常盤)",
+        "singer": "Aimer",
+        "evaluate": "7.9"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29039798.jpg",
+        "music_name": "The MOBB",
+        "singer": "MOBB",
+        "evaluate": "6.9"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29057528.jpg",
+        "music_name": "3集 - Pink Revolution (韓国盤)",
+        "singer": "Apink,에이핑크",
+        "evaluate": "5.7"
+      }
+    ],
+    "remenTotal": 30,
+    "remendanqubang": [
+      {
+        "url": "https://img3.doubanio.com/lpic/s29061170.jpg",
+        "music_name": "你在终点等我",
+        "singer": "王菲",
+        "evaluate": "5.6"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29080260.jpg",
+        "music_name": "what U need?",
+        "singer": "张艺兴",
+        "evaluate": "7.9"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29070041.jpg",
+        "music_name": "全世界谁倾听你",
+        "singer": "林宥嘉",
+        "evaluate": "7.1"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29083297.jpg",
+        "music_name": "Million Reasons",
+        "singer": "Lady Gaga",
+        "evaluate": "7.5"
+      },
+      {
+        "url": "https://img1.doubanio.com/lpic/s29071547.jpg",
+        "music_name": "I Wanna Know",
+        "singer": "蔡依林,Alesso",
+        "evaluate": "7.5"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29070061.jpg",
+        "music_name": "致姗姗来迟的你",
+        "singer": "阿肆,林宥嘉",
+        "evaluate": "7.9"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29084055.jpg",
+        "music_name": "24K Magic",
+        "singer": "Bruno Mars",
+        "evaluate": "6.6"
+      },
+      {
+        "url": "https://img3.doubanio.com/lpic/s29090873.jpg",
+        "music_name": "Starboy (feat. Daft Punk)",
+        "singer": "The Weeknd",
+        "evaluate": "8.2"
+      }
+    ],
+    "doubancai": [
+      {
+        "url": "https://img3.doubanio.com/spic/s29070061.jpg",
+        "music_name": "致姗姗来迟的你",
+        "singer": "放肆的肆",
+        "evaluate": "5.6"
+      },
+      {
+        "url": "https://img3.doubanio.com/spic/s29072056.jpg",
+        "music_name": "如斯",
+        "singer": "丢火车乐队",
+        "evaluate": "7.9"
+      },
+      {
+        "url": "https://img3.doubanio.com/spic/s28882195.jpg",
+        "music_name": "她说",
+        "singer": "林俊杰",
+        "evaluate": "7.8"
+      },
+      {
+        "url": "https://img3.doubanio.com/spic/s28170683.jpg",
+        "music_name": "青蛇",
+        "singer": "Eddie.Beatz",
+        "evaluate": "7.5"
+      },
+      {
+        "url": "https://img3.doubanio.com/spic/s29077065.jpg",
+        "music_name": "阳春东湖(阳春话版)",
+        "singer": "成辉与白日梦",
+        "evaluate": "7.5"
+      },
+      {
+        "url": "https://img1.doubanio.com/spic/s28105787.jpg",
+        "music_name": "绅士",
+        "singer": "薛之谦",
+        "evaluate": "8.4"
+      },
+      {
+        "url": "https://img1.doubanio.com/spic/s29066698.jpg",
+        "music_name": "Sea",
+        "singer": "岳璇",
+        "evaluate": "8.5"
+      },
+      {
+        "url": "https://img3.doubanio.com/spic/s4677865.jpg",
+        "music_name": "素颜",
+        "singer": "许嵩",
+        "evaluate": "8.1"
+      },
+      {
+        "url": "https://img3.doubanio.com/spic/s27037980.jpg",
+        "music_name": "李白",
+        "singer": "李荣浩",
+        "evaluate": "7.9"
+      },
+      {
+        "url": "https://img1.doubanio.com/spic/s28380818.jpg",
+        "music_name": "红豆",
+        "singer": "王菲",
+        "evaluate": "7.2"
+      },
+      {
+        "url": "https://img3.doubanio.com/spic/s6561083.jpg",
+        "music_name": "认了吧",
+        "singer": "陈奕迅",
+        "evaluate": "8.2"
+      },
+      {
+        "url": "https://img3.doubanio.com/spic/s29070041.jpg",
+        "music_name": "全世界倾听你",
+        "singer": "林宥嘉",
+        "evaluate": "7.2"
+      }
+    ],
+    "yueping": [
+      {
+        "title": "张艺兴《what U need》：中国90后音乐人的实力与...",
+        "content": "当下的内地乐坛，受互联网音乐冲击的影响虽然在逐步减小，但是原创音乐这一方面依旧是难言乐观。很多明星和艺人宁可将更多的时间放在演唱会和粉丝见面会上，而不愿意推出新的音乐作品。究其原因，自然是与当下乐坛原创力不足和市场不景气有关，但更重要的原因，可能还是与对于自身实力的不够自信有关。张艺兴最新solo专辑抢听曲《what U need》则似乎预示着，中国新一代音乐人，正在用不同的方式，对抗行业窘境，试图用实力和新鲜的创作思路，打开国内外市场。这首单曲公开1小时，空降虾米、阿里音乐榜单一位，登英/美/法/日/韩/巴西/泰国/马来西亚等全球趋势。21小时海外官方平台YouTube播放量破百万，24小时播放量123万，点赞18万。张艺兴成为YouTube平台上，MV最快突破100万的中国籍歌手，同时创下SM娱乐旗下男艺人solo首日YouTube点击最好成绩。截至目前，国内官方平台播放量破百万，并呈持续上升趋势。张艺兴推出的这首单曲《what U need》明显的给人眼前一亮的感觉。这种感觉，不仅仅是来自于对于这首歌曲和MV品质的认可，而是更多的来自于对于张艺兴本人在音乐实力方面的肯定。这首歌让人意外的一点就是张艺兴本人包揽了整首歌的作词、作曲和编曲，这在内地乐坛的年轻一代的歌手中虽然不能说是绝无仅有，但也可以说是屈指可数。重要的是，这种“包揽”，绝非是为了单纯的给歌手贴上某个标签而草草了事，而是在整首歌的词曲和编曲乃至舞蹈场景编排等各方面都体现了一定的水准，最终形成了一个让人印象深刻的音乐作品。从音乐类型上来说，《what U need》是一首由时尚的节奏和旋律构成的中等节奏的funky groove pop曲风的歌曲，糅合了大量的西方流行乐元素，体现了词曲作者深厚的流行音乐的基本功和对于国际流行音乐的理解与把握能力。歌词部分则轻快俏皮，蕴含了在恋人的魅力中无法摆脱出来的心情，与当下年轻人的价值观和思想理念高度契合，也同样体现了张艺兴对于生活和爱情的自身的理解。在轻快曲风的配合下，歌者将与时代感贴近的年轻人的心情娓娓道来，更容易引发听者的共鸣。中间的中文rap部分是该首歌曲的另一个亮点，虽然当下这种处理的方式屡见不鲜，但是难得的是这些rap部分毫无违和感，与整首歌密切的融为一体，朗朗上口，新鲜感十足。不过，这首歌给人最大的惊喜还在于编曲部分。虽然整首歌走的是常见的C-pop音乐风格，但是在很多方面却又与传统的C-pop音乐有着很多的不同。《what U need》的编曲中巧妙的融合了K-pop以及R&B的曲风特色，更偏向国际化，旋律注重变化转折，俏皮的rap结合他清亮的音色，更增加了歌曲的耐听度，也因此形成了张艺兴独特的“lay-pop”曲风特色。值得一提的是，这首歌在技巧和曲风上的特征都决定了这并不是一首特别容易学唱的歌曲，也许它也不会成为卡拉OK里的重点曲目，但是这首歌本身的音乐素质和品位而言，却是肯定会给很多人留下深刻印象的。作为一名有着深厚音乐功底的艺人，一直以来，张艺兴都非常强调在他的作品中的节奏感、故事性和完整性，以及文字、绘画、音乐、舞蹈等方面的共通性，他也希望自己作出来的音乐也具备了这种特征，从这首《what U need》看来，他做到了。在这首歌的MV中，张艺兴也全面表现了他在舞蹈方面的天赋。毕竟，作为一名多年来经过各种训练的歌手来说，他在舞蹈方面的才华也为外人熟知。此次为了配合这首歌曲的曲风和整首MV的曲风，张艺兴可以说是完全体现了他利用肢体语言将自己创作的音乐影像化的努力。整个MV在简洁空旷的空间内拍摄完成，在没有过多的视觉辅助的情况下，张艺兴凭借超强的舞台掌控力，与舞蹈和摄像团队完美的配合下，自由穿梭于变化不同的场景中，惬意的与镜头前的歌迷们甜蜜互动，整体动作自然流畅、干净利落、性感撩人。在国内的年轻一代歌手中，能够通过原创和舞蹈，驾驭这种强劲性感曲风的已属少见，而张艺兴却通过自身的写歌、编曲、舞蹈等方面的全方位的才华来体现了一个原创歌手应有的实力，而歌曲本身所具有的西式风格和国际化视野也在一定程度上体现了他冲击国际市场的野心。新曲《what U need》可以说是一首精良的良心之作，但是，相信这仅仅是一个全新的开始，后面的全新专辑solos更应该值得期待。",
+        "reviewer": "风之影",
+        "music": "what U need?",
+        "url": "https://img3.doubanio.com/mpic/s29080260.jpg"
+      },
+      {
+        "title": "很感谢给差评的人，因为真的很高兴有那么多人对...",
+        "content": "从《仰望》开始，很多人对杨丞琳的看法就变了。我到现在都把《想幸福的人》视为神砖，但也难逃一张好一张坏的节奏，于是乎《天使之翼》变得不明所以，《双丞戏》又扳回一城，所以大家开始担心这一张专辑。杨丞琳也在担心。所以跟李荣浩谈了个恋爱。所以拼命唱吴青峰的歌。所以找来小寒蓝小邪李格弟之辈目的也很明显就是为了冲金曲奖。所以我们会说，杨丞琳，再努力也达不到蔡健雅的水准，再文艺也没有田馥甄的人气，再认真也没有孙燕姿的情怀。但是，从什么时候开始，杨丞琳已经甩开了王心凌郭静张韶涵几条街，大家都非常严肃认真的去看待杨丞琳的每一张专辑每一首歌每一句歌词每一个旋律了？讲真，杨丞琳在歌、影、视三方都有着非常很优秀的表现，并且都很认真很单纯很不做作的去完成自己的每一个作品，跟那些纯粹为了告诉大家我还活着而发行作品的妖艳贱货好不一样。虽然目光不能如此短浅的，就此满足每一个仅处于及格线水平上面一点点的作品。但是，真的很幸运我所关注的人，一直在尽她的全力来给大家呈现出她最好的一面。感谢杨丞琳已不再是那个杨丞琳，却依旧还是杨丞琳。五星全是因为个人所好，也是对爱豆的欣赏和满意，姑且当我是水军吧。",
+        "reviewer": "五四",
+        "music": "年轮说",
+        "url": "https://img3.doubanio.com/mpic/s29029041.jpg"
+      },
+      {
+        "title": "诚意之作",
+        "content": "音乐作为一种表达，无外乎有感而发、随心而动。所以，不去深究每个音符每段节奏每句字词，听着听着会跟着摇摆，看着看着会嘴角微扬，应该就是因音而乐了吧！喜欢这首歌，精致、用心、完整，MV加分，编舞加分，还有大大的原创加分。更喜欢这首歌带来的感觉，乐观的、愉悦的，有点性感又自带清新，像雨后的青草地，毛茸茸湿漉漉的雀跃的心情。后面还会有什么样的惊喜呢？有点期待啊^_^",
+        "reviewer": "西西unicorn",
+        "music": "what U need?",
+        "url": "https://img3.doubanio.com/mpic/s29080260.jpg"
+      }
+    ],
+    "find":[
+      {
+        "title":"如果在写论文没有思绪那就听歌好了。" ,
+        "collect":"1",
+        "url":"https://img3.doubanio.com/img/songlist/large/11065361-1.jpg"
+      },
+      {
+        "title":"假日歌单｜对抗假期综合症 161007" ,
+        "collect":"2",
+        "url":"https://img3.doubanio.com/img/songlist/large/11065558-1.jpg"
+      },
+      {
+        "title":"晚睡温情" ,
+        "collect":"1",
+        "url":"https://img1.doubanio.com/img/songlist/large/11067803-9.jpg"
+      }
+    ]
+  }
+}

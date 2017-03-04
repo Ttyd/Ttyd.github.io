@@ -1,0 +1,86 @@
+<div class="mod-mine">
+	<header>
+		<h1>我的</h1>
+		<a ui-sref="mine_setting" class="setting_btn"><img src="img/mine_tool.png" alt="设置" /></a>
+	</header>
+	<div class="banner-noLogin" ng-show="!login">
+		<a ui-sref="login">
+			<div class="banner-left">
+				<img src="img/mine_noLogin.png" alt="" />
+			</div>
+			<div class="banner-right">
+				未登录
+			</div>
+		</a>
+	</div>
+	<div class="banner-login" ng-show="login">
+		<div class="banner-left">
+			<img src="img/mine_noLogin.png" alt="" />
+		</div>
+		<div class="banner-right">
+			<div class="top">
+				<p class="userName">{{userName}}</p>
+				<p class="personPage">ID:<span class="id">152270524</span><span class="homepage">个人主页</span></p>
+			</div>
+			<div class="bottom">
+				<p>关注 <span class="gz">0</span></p><p>被关注 <span class="bgz">0</span></p>
+			</div>
+		</div>
+	</div>
+	<div class="remind">
+		<div class="setting">
+			<img src="img/mine_remind.png" alt="" />提醒
+		</div>
+		<ul class="contents">
+			<li>暂无新提醒</li>
+		</ul>
+	</div>
+	<div class="myItem">
+		<div class="item">
+			<a href="">
+				<img src="img/mine_item1.png"/>
+				<p>喜欢</p>
+			</a>
+			<a href="">
+				<img src="img/mine_item2.png"/>
+				<p>日记</p>
+			</a>
+			<a href="">
+				<img src="img/mine_item3.png"/>
+				<p>相册</p>
+			</a>
+			<a href="">
+				<img src="img/mine_item4.png"/>
+				<p>我的广播</p>
+			</a>
+		</div>
+		<div class="item">
+			<a href="">
+				<img src="img/mine_item5.png"/>
+				<p>电影电视</p>
+			</a>
+			<a href="">
+				<img src="img/mine_item6.png"/>
+				<p>读书</p>
+			</a>
+			<a href="">
+				<img src="img/mine_item7.png"/>
+				<p>音乐</p>
+			</a>
+			<a href="">
+				<img src="img/mine_item8.png"/>
+				<p>同城活动</p>
+			</a>
+		</div>
+		<div class="item">
+			<a href="">
+				<img src="img/mine_item9.png"/>
+				<p>豆列</p>
+			</a>
+			<a ui-sref="myOrder">
+				<img src="img/mine_item10.png"/>
+				<p>订单</p>
+			</a>
+		</div>
+	</div>
+</div>

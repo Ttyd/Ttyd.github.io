@@ -1,0 +1,87 @@
+.mine-setting {
+  width: 10rem;
+  padding-bottom: 1.53125rem;
+}
+.mine-setting header {
+  height: 1.6875rem;
+  background-color: #f8f8f8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-bottom: 1px solid #adadad;
+}
+.mine-setting header h1 {
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1.6875rem;
+}
+.mine-setting header a {
+  width: 0.296875rem;
+  height: 0.546875rem;
+  position: absolute;
+  bottom: 0.546875rem;
+  left: 0.453125rem;
+  font-size: 0;
+}
+.mine-setting header a img {
+  width: 0.296875rem;
+  height: 0.546875rem;
+}
+.mine-setting .lists {
+  position: relative;
+  margin-top: 1.6875rem;
+}
+.mine-setting .lists .empty {
+  height: 1.078125rem;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #dfdfdf;
+}
+.mine-setting .lists .contents {
+  font-size: 0.46875rem;
+  padding-left: 0.46875rem;
+  border-bottom: 1px solid #dfdfdf;
+  background-color: #ffffff;
+}
+.mine-setting .lists .contents a {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #dfdfdf;
+}
+.mine-setting .lists .contents a li {
+  height: 1.34375rem;
+  line-height: 1.34375rem;
+  background: url(../../img/setting_point.png) no-repeat 8.8125rem;
+  background-size: 0.25rem 0.40625rem;
+}
+.mine-setting .lists .contents a .cache {
+  background-image: none;
+}
+.mine-setting .lists .contents a .cache span {
+  margin-left: 6rem;
+}
+.mine-setting .lists .contents a .idea span {
+  display: inline-block;
+  margin-left: 2.1875rem;
+  font-size: 0.4375rem;
+  height: 0.6875rem;
+  line-height: 0.6875rem;
+  padding: 0 0.90625rem;
+  background: url(../../img/setting_Feedback.png) no-repeat right;
+  background-size: 0.59375rem 0.609375rem;
+  color: #cccccc;
+}
+.mine-setting .lists .contents a .logout {
+  background-image: none;
+  text-align: center;
+}
+.mine-setting .lists .contents a:last-of-type {
+  border-bottom: none;
+}
+.mine-setting .lists .exit {
+  padding: 0;
+}
+.mine-setting .lists .exit .contents {
+  padding: 0;
+}

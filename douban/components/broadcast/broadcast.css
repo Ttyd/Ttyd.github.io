@@ -1,0 +1,56 @@
+.broadcast {
+  padding-bottom: 1.53125rem;
+}
+.broadcast .head {
+  width: 10rem;
+  height: 1.6875rem;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #b2b2b2;
+}
+.broadcast .head p {
+  line-height: 1.6875rem;
+  font-size: 0.5rem;
+  display: inline-block;
+  margin-left: 4.46875rem;
+}
+.broadcast .head img {
+  width: 0.96875rem;
+  height: 0.96875rem;
+  vertical-align: middle;
+  margin-left: 0.78125rem;
+}
+.broadcast .share {
+  width: 10rem;
+  height: 1.6875rem;
+  background-color: white;
+  border-bottom: 1px solid #dfdfdf;
+}
+.broadcast .share div {
+  float: left;
+}
+.broadcast .share div img {
+  width: 0.96875rem;
+  height: 0.96875rem;
+  vertical-align: middle;
+  margin-left: 0.46875rem;
+}
+.broadcast .share div p {
+  line-height: 1.6875rem;
+  font-size: 0.4375rem;
+  display: inline-block;
+  color: #9e9e9e ;
+}
+.broadcast .share img {
+  width: 0.96875rem;
+  height: 0.96875rem;
+  vertical-align: middle;
+  margin-right: 0.390625rem;
+}
+.broadcast .content {
+  width: 10rem ;
+  height: 12.484375rem;
+}
+.broadcast .content img {
+  width: 10rem ;
+  height: 12.484375rem;
+}

@@ -1,0 +1,79 @@
+<div class="home">
+    <header>
+        <div class="search_info">
+            <span class="search"></span>
+            <span class="search_text">影视 唱片 图书 小组等</span>
+            <span class="richScan"></span>
+        </div>
+        <div class="home_message"></div>
+    </header>
+    <div class="swiper-container slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/home_banner1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/home_banner2.gif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/home_banner3.gif" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/home_banner4.gif" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="home_programa">
+        <img src="img/home_greeting_forenoon.png"/>
+        <div class="programa_menu"></div>
+    </div>
+    <div class="home_list">
+        <div class="module_kind1" ng-repeat="x in module_kind1">
+            <div class="tag"></div>
+            <div class="title">- 生活家 -</div>
+            <div class="main">
+                <div class="main_content">
+                    <div class="main_title">{{x.title}}</div>
+                    <div class="main_info">{{x.desc}}</div>
+                </div>
+                <div class="main_photo">
+                    <img ng-src="{{x.cover_url}}" alt="">
+                </div>
+                <p class="line">
+                    <span></span>
+                </p>
+                <p class="author">作者:{{x.author}}
+                    <span>{{x.column}}</span>
+                </p>
+            </div>
+        </div>
+        <div class="module_kind2" ng-repeat="y in module_kind2">
+            <div class="photos">
+                <a href="" class="left">
+                    <img ng-src="{{y.cover_url}}" alt="">
+                </a>
+                <div class="right">
+                    <a href="">
+                        <img ng-src="{{y.more_pic_urls[0]}}" alt="">
+                    </a>
+                    <a href="">
+                        <img ng-src="{{y.more_pic_urls[1]}}" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main_content">
+                    <div class="main_title">{{y.title}}</div>
+                    <div class="main_info">{{y.desc}}</div>
+                </div>
+                <p class="line">
+                    <span></span>
+                </p>
+                <p class="author">作者:{{y.author}}
+                    <span>{{y.column}}</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

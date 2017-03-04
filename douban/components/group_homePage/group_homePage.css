@@ -1,0 +1,200 @@
+.group_homePage {
+  background-color: #f8f8f8;
+  padding-bottom: 1.53125rem;
+}
+.group_homePage .head_one {
+  width: 10rem;
+  height: 1.40625rem;
+  background-color: #2cafbb;
+  padding: 0 0.46875rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0rem;
+  right: 0;
+  left: 0;
+}
+.group_homePage .head_one p {
+  font-size: 0.5rem;
+  color: white;
+}
+.group_homePage .head_one img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+.group_homePage .small_nav ul {
+  width: 4.375rem;
+  height: 3.75rem;
+  background-color: white;
+  padding: 0 0.46875rem;
+  box-shadow: 0.078125rem 0.046875rem 0.234375rem #808080;
+  border-radius: 0.078125rem;
+  position: fixed;
+  top: 0.15625rem;
+  right: 0.3125rem;
+  display: none;
+}
+.group_homePage .small_nav ul li {
+  height: 1.25rem;
+  font-size: 0.5rem;
+  line-height: 1.25rem;
+}
+.group_homePage .title {
+  width: 10rem;
+  height: 4.0625rem;
+  background-color: #2cafbb ;
+  padding: 0.46875rem 0.46875rem 0;
+  box-sizing: border-box;
+  font-size: 0;
+}
+.group_homePage .title dl {
+  width: 100%;
+  height: 1.6875rem;
+}
+.group_homePage .title dl dt {
+  float: left;
+}
+.group_homePage .title dl dt img {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+  border: 0.015625rem solid #ffffff;
+  border-radius: 0.078125rem;
+  vertical-align: middle;
+}
+.group_homePage .title dl dd {
+  font-size: 0.46875rem;
+  font-weight: 400;
+  margin-left: 1.5625rem;
+  color: white;
+  line-height: 1.71875rem;
+}
+.group_homePage .title p {
+  font-size: 0.375rem;
+  color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.group_homePage .title div {
+  width: 100%;
+  height: 1.40625rem;
+  padding-top: 0.390625rem;
+  box-sizing: border-box;
+}
+.group_homePage .title div img:first-of-type {
+  width: 2.75rem;
+  height: 0.625rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.group_homePage .title div span {
+  font-size: 0.375rem;
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+}
+.group_homePage .title div img:last-of-type {
+  width: 1.6875rem;
+  height: 0.78125rem;
+  display: inline-block;
+  margin-left: 1.25rem;
+  vertical-align: middle;
+}
+.group_homePage .block {
+  width: 10rem;
+  height: 1.375rem;
+}
+.group_homePage .school_nav ul {
+  width: 10rem;
+  height: 1.375rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group_homePage .school_nav ul li {
+  width: 25%;
+  height: 1.34375rem;
+  font-size: 0.4375rem;
+  line-height: 1.34375rem;
+  color: #a7a7a7;
+  text-align: center;
+}
+.group_homePage .school_nav ul li img {
+  width: 0.625rem;
+  height: 0.625rem;
+  vertical-align: middle;
+}
+.group_homePage .school_nav ul li:hover {
+  border-bottom: 0.015625rem solid #42bd56;
+  color: #42bd56;
+}
+.group_homePage .huati {
+  width: 10rem ;
+  height: 3.59375rem;
+  padding: 0.46875rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 0.015625rem solid #dcdcdc;
+  background-color: white;
+}
+.group_homePage .huati div {
+  width: 6.875rem;
+  height: 2.65625rem;
+  float: left;
+}
+.group_homePage .huati div dl dt {
+  width: 1.09375rem;
+  height: 2.65625rem;
+  float: left;
+}
+.group_homePage .huati div dl dt img {
+  width: 0.46875rem;
+  height: 0.3125rem;
+  vertical-align: top;
+  margin: 0.28125rem 0 0 0.15625rem;
+}
+.group_homePage .huati div dl dt span {
+  font-size: 0.3125rem;
+  color: lightgrey;
+  display: block;
+  margin: -0.625rem 0 0 0.15625rem;
+}
+.group_homePage .huati div dl dd {
+  width: 5.625rem;
+  height: 1.9375rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.46875rem;
+  float: left;
+}
+.group_homePage .huati div p {
+  float: left;
+  font-size: 0.34375rem;
+  color: lightgrey;
+}
+.group_homePage .huati div p img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+.group_homePage .huati .right {
+  width: 2.1875rem;
+  height: 2.65625rem;
+  float: right;
+}
+.group_homePage .huati .right dt img {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  float: right;
+}
+.group_homePage .huati .right dd {
+  font-size: 0.3125rem;
+  color: #d2d2d2;
+  float: right;
+  margin-top: 0.46875rem;
+}

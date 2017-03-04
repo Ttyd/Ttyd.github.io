@@ -1,0 +1,288 @@
+.mediaRead {
+  padding-top: 3.09375rem;
+  background-color: #f8f8f8;
+}
+.mediaRead .banner {
+  height: 4.6875rem;
+}
+.mediaRead .banner img {
+  width: 10rem;
+  height: 2.9375rem;
+}
+.mediaRead .banner .bookName {
+  font-size: 0.5rem;
+  font-weight: bold;
+  line-height: 1.75rem;
+  padding-left: 0.40625rem;
+  background-color: white;
+}
+.mediaRead .xssd .book1 dt {
+  padding: 0;
+}
+.mediaRead .xssd .book1 dl:last-of-type dt {
+  padding-top: 1.21875rem;
+  padding-bottom: 1.265625rem;
+  vertical-align: top;
+}
+.mediaRead .dbds .bookban {
+  padding: 0 0.40625rem;
+  margin-bottom: 0.375rem;
+}
+.mediaRead .dbds .bookban .WudyTalk {
+  width: 6.25rem;
+  vertical-align: top;
+  padding-top: 0.25rem;
+  line-height: 1.03125rem;
+  margin-left: 0.25rem;
+}
+.mediaRead .dbds .bookban p,
+.mediaRead .dbds .bookban .WudyTalk {
+  display: inline-block;
+}
+.mediaRead .dbds .bookban p img,
+.mediaRead .dbds .bookban .WudyTalk img {
+  width: 2.65625rem;
+  height: 3.75rem;
+}
+.mediaRead .dbds .bookban p h3 p,
+.mediaRead .dbds .bookban .WudyTalk h3 p {
+  font-size: 0.5625rem;
+  font-weight: normal;
+  color: #494949;
+  width: 4.1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mediaRead .dbds .bookban p h3 span,
+.mediaRead .dbds .bookban .WudyTalk h3 span {
+  font-size: 0.34375rem;
+  color: red;
+  margin-left: 0.8125rem;
+  float: right;
+}
+.mediaRead .dbds .bookban p .talkInfo,
+.mediaRead .dbds .bookban .WudyTalk .talkInfo {
+  font-size: 0.375rem;
+  line-height: 0.59375rem;
+  color: #9b9b9b;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 3;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.mediaRead .rmdzs dd span:first-of-type {
+  text-decoration: line-through;
+}
+.mediaRead .rmdzs dd span:last-of-type {
+  color: red;
+}
+.mediaRead .dbc .movie4 {
+  white-space: normal;
+  overflow: visible;
+  padding-right: 0;
+}
+.mediaRead .dbc .movie4 dl:nth-of-type(3n) {
+  margin-right: 0;
+}
+.mediaRead .dbc .movie4 dl:last-of-type dt {
+  padding: 0;
+}
+.mediaRead .dbc .refresh {
+  height: 1.09375rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.40625rem;
+  color: #9c9c9c;
+}
+.mediaRead .dbc .refresh img {
+  width: 0.5rem;
+  height: 0.4375rem;
+}
+.mediaRead .cinecism {
+  background-color: white;
+  margin-top: 0.46875rem;
+}
+.mediaRead .cinecism .movieTop {
+  height: 1.390625rem;
+  line-height: 1.390625rem;
+}
+.mediaRead .cinecism .movieTop h3 {
+  font-size: 0.5rem;
+  font-weight: normal;
+  display: inline-block;
+}
+.mediaRead .cinecism .movieTop .moreMovie {
+  float: right;
+  display: inline-block;
+  font-size: 0.40625rem;
+}
+.mediaRead .cinecism .movieTop .moreMovie a {
+  color: #42bd56;
+}
+.mediaRead .cinecism .review {
+  height: 4.28125rem;
+  padding-top: 0.53125rem;
+}
+.mediaRead .cinecism .review .reviewWords {
+  float: left;
+  width: 6.4375rem;
+  padding-left: 0.40625rem;
+}
+.mediaRead .cinecism .review .reviewWords .title {
+  font-size: 0.546875rem;
+  color: #494949;
+  line-height: 0.75rem;
+}
+.mediaRead .cinecism .review .reviewWords .feel {
+  font-size: 0.375rem;
+  color: #9b9b9b;
+  line-height: 0.5625rem;
+  margin-top: 0.09375rem;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.mediaRead .cinecism .review .reviewWords .line {
+  width: 1.25rem;
+  height: 0.03125rem;
+  background-color: #d8d8d8;
+  margin-top: 0.34375rem;
+  margin-bottom: 0.3125rem;
+}
+.mediaRead .cinecism .review .reviewWords .view {
+  font-size: 0.3125rem;
+  color: #a2a2a2;
+}
+.mediaRead .cinecism .review .poster {
+  float: right;
+  width: 3.15625rem;
+  height: 4.28125rem;
+  text-align: center;
+}
+.mediaRead .cinecism .review .poster img {
+  width: 2.34375rem;
+  height: 3.28125rem;
+}
+.mediaRead .choose {
+  font-size: 0;
+  background-color: white;
+  margin-top: 0.453125rem;
+}
+.mediaRead .choose h3 {
+  font-size: 0.5rem;
+  font-weight: normal;
+  padding-left: 0.40625rem;
+  padding-right: 0.40625rem;
+  line-height: 1.90625rem;
+}
+.mediaRead .choose .options {
+  background-color: white;
+  font-size: 0.40625rem;
+  color: #42bd56;
+  padding-bottom: 0.453125rem;
+  padding-right: 0.40625rem;
+}
+.mediaRead .choose .options span {
+  white-space: nowrap;
+  padding: 0.21875rem 0.4375rem;
+  border: 0.015625rem solid #42bd56;
+  border-radius: 5.46875rem;
+  margin-left: 0.4375rem;
+  margin-top: 0.4375rem;
+  display: inline-block;
+}
+.mediaRead .find {
+  font-size: 0;
+  background-color: white;
+  margin-top: 0.453125rem;
+}
+.mediaRead .find .findTop {
+  height: 1.90625rem;
+  line-height: 1.90625rem;
+  padding: 0 0.40625rem;
+}
+.mediaRead .find .findTop .bangDan {
+  font-size: 0.5rem;
+  font-weight: normal;
+  display: inline-block;
+}
+.mediaRead .find .findTop .bangDan h3 {
+  font-size: 0.5rem;
+  font-weight: normal;
+  display: inline-block;
+}
+.mediaRead .find .findTop .bangDan > p {
+  font-size: 0.390625rem;
+  color: #9b9b9b;
+  margin-top: -0.3125rem;
+  line-height: 0;
+}
+.mediaRead .find .findTop .findMore {
+  float: right;
+  font-size: 0.40625rem;
+  margin-left: 3.5rem;
+}
+.mediaRead .find .findTop .findMore a {
+  color: #42bd56;
+}
+.mediaRead .find .content {
+  border-top: 0.03125rem solid #acacac;
+  height: 2.5625rem;
+  padding: 0.46875rem 0.40625rem;
+}
+.mediaRead .find .content .movTitle {
+  float: left;
+}
+.mediaRead .find .content .movTitle .movName {
+  width: 5.75rem;
+  font-size: 0.5rem;
+  color: #494949;
+  line-height: 0.71875rem;
+  margin-bottom: 0.3125rem;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 3;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
+.mediaRead .find .content .movTitle span {
+  font-size: 0.390625rem;
+  color: #acacac;
+}
+.mediaRead .find .content .pic {
+  float: right;
+  width: 2.5625rem;
+  height: 2.5625rem;
+}
+.mediaRead .find .content .pic img {
+  width: 2.5625rem;
+  height: 2.5625rem;
+}
+.mediaRead .find > div:nth-of-type(2) {
+  border: none;
+}
+.mediaRead .readTop {
+  padding: 0 0.40625rem;
+}
+.mediaRead .readTop dd p:first-of-type {
+  color: #494949;
+}

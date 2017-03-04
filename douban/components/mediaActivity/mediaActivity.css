@@ -1,0 +1,132 @@
+.mediaActivity {
+  padding-top: 3.125rem;
+}
+.mediaActivity .getloc {
+  height: 1.17333333rem;
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+.mediaActivity .getloc a {
+  width: 49.8%;
+  height: 100%;
+  display: inline-block;
+  background: url("../../img/activity-rightG.png") #ffffff no-repeat 4.26666667rem 0.42666667rem;
+  background-size: 0.18666667rem 0.30666667rem;
+  font-size: 0.37333333rem;
+  color: #9b9b9b;
+  line-height: 1.17333333rem;
+  text-indent: 0.44rem;
+}
+.mediaActivity .getloc a .pos {
+  color: #42bd56;
+}
+.mediaActivity .getloc .city {
+  float: left;
+}
+.mediaActivity .getloc .info {
+  float: right;
+}
+.mediaActivity ._banner {
+  height: 4.53333333rem;
+  background-color: #fff;
+  margin-bottom: 0.4rem;
+}
+.mediaActivity ._banner img {
+  width: 10rem;
+  height: 2.94666667rem;
+}
+.mediaActivity ._banner p {
+  font-size: 0.36rem;
+  color: #494949;
+  line-height: 1.6rem;
+  padding-left: 0.4rem;
+}
+.mediaActivity .column {
+  margin-bottom: 0.4rem;
+  background-color: #fff;
+}
+.mediaActivity .column .Title {
+  height: 1.73333333rem;
+  font-size: 0.42666667rem;
+  color: #494949;
+  line-height: 1.73333333rem;
+  padding: 0 0.48rem 0 0.4rem;
+  position: relative;
+}
+.mediaActivity .column .Title a {
+  position: absolute;
+  left: 8.26666667rem;
+  color: #42bd56;
+  padding: 0 0.29333333rem;
+  background: url("../../img/booksOrPhotocopies-right.png") no-repeat right center;
+  background-size: 0.16rem 0.26666667rem;
+}
+.mediaActivity .column .content {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.mediaActivity .column .book_info {
+  width: 2.66666667rem;
+  padding-left: 0.30666667rem;
+  height: 5.30666667rem;
+  display: inline-block;
+  vertical-align: top;
+}
+.mediaActivity .column .book_info img {
+  width: 2.66666667rem;
+  height: 3.73333333rem;
+  margin-bottom: 0.16rem;
+}
+.mediaActivity .column .book_info .name {
+  line-height: 0.46666667rem;
+  font-size: 0.33333333rem;
+  color: #494949;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.mediaActivity .column .book_info .evaluate {
+  line-height: 0.46666667rem;
+}
+.mediaActivity .column .book_info .evaluate img {
+  margin-top: 0.10666667rem;
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  margin-right: 0.02666667rem;
+  vertical-align: top;
+}
+.mediaActivity .column .book_info .evaluate .score {
+  font-size: 0.26666667rem;
+  color: #9b9b9b;
+}
+.mediaActivity .column .book_info .evaluate .price {
+  font-size: 0.26666667rem;
+  color: #9b9b9b;
+}
+.mediaActivity .column .book_info .pricecompare {
+  font-size: 0.26666667rem;
+}
+.mediaActivity .column .book_info .pricecompare .oldprice {
+  text-decoration: line-through;
+}
+.mediaActivity .column .book_info .pricecompare .curprice {
+  color: #ff4055;
+}
+.mediaActivity .column .book_info .img {
+  width: 2.66666667rem;
+  height: 3.73333333rem;
+  background-color: #f3f3f3;
+  padding-top: 0.1px;
+}
+.mediaActivity .column .book_info .img .text {
+  width: 0.82666667rem;
+  text-align: center;
+  margin: 1.33333333rem auto 0;
+}
+.mediaActivity .column .book_info .img .text p {
+  font-size: 0.37333333rem;
+}
+.mediaActivity .column .book_info .img .text .num {
+  border-top: 1px solid #ccc;
+  color: #9b9b9b;
+}

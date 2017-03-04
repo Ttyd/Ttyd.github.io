@@ -1,0 +1,57 @@
+.mod-footer .bottom {
+    width: 100%;
+    height: 1.53125rem;
+    position: fixed;
+    bottom: 0;
+    background-color: #f8f8f8;
+    font-size: 0;
+    z-index: 100;
+}
+.mod-footer .bottom a{
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+}
+.mod-footer .bottom li {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 0 ;
+    vertical-align: top;
+    padding-top: 0.234375rem;
+    box-sizing: border-box;
+}
+.mod-footer .bottom li div {
+    width: 0.75rem;
+    height: 0.75rem;
+    margin: 0 auto ;
+}
+.mod-footer .bottom li p {
+    width: 100%;
+    height: 0.4375rem;
+    text-align: center;
+    line-height: 0.4375rem;
+    font-size: 0.28125rem;
+    color: #a6a6a6;
+}
+.mod-footer .bottom .home div {
+    background: url("img/bottomIcon_bg.png") no-repeat 0 0;
+    background-size: 0.75rem 7.5rem;
+}
+.mod-footer .bottom .media div {
+    background: url("img/bottomIcon_bg.png") no-repeat 0 -1.5rem;
+    background-size: 0.75rem 7.5rem;
+}
+.mod-footer .bottom .broadcast div {
+    background: url("img/bottomIcon_bg.png") no-repeat 0 -3rem;
+    background-size: 0.75rem 7.5rem;
+}
+.mod-footer .bottom .group div {
+    background: url("img/bottomIcon_bg.png") no-repeat 0 -4.5rem;
+    background-size: 0.75rem 7.5rem;
+}
+.mod-footer .bottom .mine div {
+    background: url("img/bottomIcon_bg.png") no-repeat 0 -6rem;
+    background-size: 0.75rem 7.5rem;
+}
